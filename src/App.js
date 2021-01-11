@@ -6,7 +6,7 @@ import {
   Route,
 } from 'react-router-dom'
 
-import Home from './pages/home'
+import Home from './pages/home/home.jsx'
 // import AboutMe from './pages/aboutMe'
 // import FormerLife from './pages/formerLife'
 // import MyCode from './pages/formerLife'
