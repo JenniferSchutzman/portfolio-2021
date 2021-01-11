@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './pages/home/home.jsx'
-// import AboutMe from './pages/aboutMe'
+import AboutMe from './pages/aboutMe.jsx'
 // import FormerLife from './pages/formerLife'
 // import MyCode from './pages/formerLife'
 // import TechCommunity frmo './pages/TechCommunity'
@@ -19,10 +19,10 @@ const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-        {/* <Route exact path="/aboutMe" component={AboutMe} />
-        <Route exact path="/formerLife" component={FormerLife} />
-        <Route exact path="/MyCode" component={MyCode} />
-        <Route exact path="/TechCommunity" component={TechCommunity} /> */}
+        <Route exact path="/aboutMeNow" component={AboutMe} />
+        {/* <Route exact path="/myFormerLife" component={FormerLife} />
+        <Route exact path="/myCode" component={MyCode} />
+        <Route exact path="/involvementInTechCommunity" component={TechCommunity} />  */}
       </Switch>
     </BrowserRouter>
   )

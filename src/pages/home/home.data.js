@@ -6,22 +6,26 @@ import parqueTyrona from '../../assets/images/parqueTyrona.jpg'
 const homeData = [{
   title: 'About Me Now',
   img: columns,
-  width: '50%'
+  width: '50%',
+  route: '/aboutMeNow'
 },
 {
   title: 'The Other Life',
   img: cherryBlossom,
-  width: '50%'
+  width: '50%',
+  route: '/myFormerLife'
 },
 {
   title: 'My Code',
   img: theranchfields,
-  width: '50%'
+  width: '50%',
+  route: '/myCode'
 },
 {
   title: 'Tech Community',
   img: parqueTyrona,
-  width: '50%'
+  width: '50%',
+  route: '/involvementInTechCommunity'
 }
 ]
 
