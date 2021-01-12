@@ -20,12 +20,14 @@ const Home = () => {
     history.push(data.route)
   }
 
+  console.log('homeData', homeData)
+
   return (
     <div className={classes.root}>
         {/* <Grid item xs={12}> */}
         <NavBar />
         {/* </Grid> */}
-        <Grid item xs={12}>
+        {/* <Grid item xs={12}> */}
           {homeData.map((data) => (
             
             <ButtonBase 
@@ -41,7 +43,7 @@ const Home = () => {
               <span 
               className={classes.imageSrc}
               style={{
-                backgroundImage: data.img
+                backgroundImage: `url(${data.img})`
               }}
       />
       <span className={classes.imageBackdrop}/>
@@ -56,7 +58,7 @@ const Home = () => {
       </span>
             </ButtonBase>
           ))}
-        </Grid>
+        {/* </Grid> */}
     </div>
   )
 }

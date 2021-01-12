@@ -2,7 +2,7 @@
 import wedding from '../../assets/images/wedding.jpg';
 
 
-const aboutMeData = [{
+const aboutMeData = {
   img: wedding,
   p1: `Shortly after moving to Mount Pleasant 3 and a half years ago, I met my husband
   to be and knew that I'd never want to leave. We just recentely
@@ -23,6 +23,6 @@ const aboutMeData = [{
   other things. Life is short so I intend to enjoy every year of
   this life surrounded by optimistic and genuine people both inside
   the office and out.`
-}]
+}
 
 export default aboutMeData;

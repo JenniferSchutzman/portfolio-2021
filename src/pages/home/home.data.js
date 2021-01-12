@@ -17,13 +17,13 @@ const homeData = [{
 },
 {
   title: 'My Code',
-  img: theranchfields,
+  img: parqueTyrona,
   width: '50%',
   route: '/myCode'
 },
 {
   title: 'Tech Community',
-  img: parqueTyrona,
+  img:  theranchfields,
   width: '50%',
   route: '/involvementInTechCommunity'
 }

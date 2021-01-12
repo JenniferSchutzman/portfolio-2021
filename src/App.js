@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './pages/home/home.jsx'
-import AboutMe from './pages/aboutMe.jsx'
+import AboutMe from './pages/aboutMe/aboutMe.jsx'
 // import FormerLife from './pages/formerLife'
 // import MyCode from './pages/formerLife'
 // import TechCommunity frmo './pages/TechCommunity'

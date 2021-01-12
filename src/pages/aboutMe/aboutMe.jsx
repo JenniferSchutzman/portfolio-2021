@@ -1,10 +1,15 @@
 import React from 'react'
 import PageLayout from '../../components/PageLayout'
-import aboutMeData from './aboutMeData.js'
+import aboutMeData from './aboutMe.data.js'
+
+// console.log('aboutMeData', aboutMeData)
 
 const AboutMe = props => {
   return (
-    <PageLayout data={aboutMeData} />
+    <>
+    <h1>Abuot Me</h1>
+    <PageLayout  data={aboutMeData}/>
+    </>
   )
 }
 
