@@ -21,11 +21,13 @@ const Home = () => {
   }
 
   console.log('homeData', homeData)
+  const title = "Jenny"
+  const subtitle="Libraries"
 
   return (
     <div className={classes.root}>
-        {/* <Grid item xs={12}> */}
-        <NavBar />
+        <Grid item xs={12}>
+        <NavBar title={title} subtitle={subtitle}/>
         {/* </Grid> */}
         {/* <Grid item xs={12}> */}
           {homeData.map((data) => (
@@ -58,7 +60,7 @@ const Home = () => {
       </span>
             </ButtonBase>
           ))}
-        {/* </Grid> */}
+        </Grid>
     </div>
   )
 }

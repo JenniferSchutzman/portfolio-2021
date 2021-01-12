@@ -5,8 +5,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
-import MoreIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const NavBar = () =>  {
+const NavBar = (props) =>  {
   const classes = useStyles();
 
   return (
@@ -39,11 +37,11 @@ const NavBar = () =>  {
       <AppBar position="static">
         <Toolbar className={classes.toolbar}>
           <Typography className={classes.title} variant="h3" noWrap>
-            Jenny Schutzman, Mid-Level Software Engineer
+            {props.title}
           </Typography>
           <br/>
           <Typography className={classes.subTitle} variant="h5" >
-            Javascript, React, Redux, Angular, Rest APIs, NodeJS, Auth), UI-Bootstrap, Material-UI Next, Semantic UI, i18Next, MySQL, Git/Github, html, css, atom, IntelliJ, VSCode and more. 
+           {props.subtitle}
           </Typography>
           <IconButton
             edge="start"
