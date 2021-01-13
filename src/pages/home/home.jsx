@@ -20,7 +20,7 @@ const Home = () => {
     history.push(data.route)
   }
 
-  console.log('homeData', homeData)
+  // console.log('homeData', homeData)
   const title = "Jenny"
   const subtitle="Libraries"
 

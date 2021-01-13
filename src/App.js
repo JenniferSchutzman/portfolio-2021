@@ -8,9 +8,9 @@ import {
 
 import Home from './pages/home/home.jsx'
 import AboutMe from './pages/aboutMe/aboutMe.jsx'
-// import FormerLife from './pages/formerLife'
-// import MyCode from './pages/formerLife'
-// import TechCommunity frmo './pages/TechCommunity'
+import FormerLife from './pages/formerLife/formerLife.jsx'
+// import MyCode from './pages/myCode/myCode.jsx'
+// import TechCommunity frmo './pages/techCommunity/techCommunity.jsx'
 
 
 const App = () => {
@@ -20,9 +20,9 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/aboutMeNow" component={AboutMe} />
-        {/* <Route exact path="/myFormerLife" component={FormerLife} />
-        <Route exact path="/myCode" component={MyCode} />
-        <Route exact path="/involvementInTechCommunity" component={TechCommunity} />  */}
+        <Route exact path="/myFormerLife" component={FormerLife} />  
+        {/* <Route exact path="/myCode" component={MyCode} /> */}
+        {/* <Route exact path="/involvementInTechCommunity" component={TechCommunity} />   */}
       </Switch>
     </BrowserRouter>
   )

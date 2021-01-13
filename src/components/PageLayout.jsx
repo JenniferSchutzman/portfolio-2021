@@ -17,6 +17,9 @@ const useStyles = makeStyles((theme) => ({
   // title: {
   //   fontSize: 14,
   // },
+  description: {
+    backgroundColor: '#00ff00'
+  },
   image: {
     width: "100%"
   },
@@ -29,16 +32,50 @@ const useStyles = makeStyles((theme) => ({
 const PageLayout = (props) => {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <Card >
+      <Card className={classes.root} >
         <img src={props.data.img} alt={props.data.img} className={classes.image}/>
         <CardContent>
           <p>{props.data.p1}</p>
           <p>{props.data.p2}</p>
           <p>{props.data.p3}</p>
         </CardContent>
+        <CardContent>
+          <Grid container>
+            {props.data.gridSection.map(x=> {
+              return (
+                <>
+                <Grid item xs={12} sm={3}>
+                  <img src={x.gridImage} alt={x.gridHeader}/>
+                  </Grid>
+                <Grid item xs={12} sm={9}>
+                  <h2>{x.gridHeader}</h2>
+                  <h5>{x.gridSubHeader}</h5>
+                  <p>{x.gridDescription.map(bulletPoint => {
+                    return (
+                      <p>{bulletPoint}</p>)
+                    })}
+                    </p>
+                  </Grid>
+                  </>
+                )})}
+            {/* {props.data.gridSection.map( item => {
+              return (
+                <>
+                <Grid item xs={12} sm={3}>
+                <img src={item.gridImage} alt={item.gridImage} className={classes.gridImage} />
+                </Grid>
+                <Grid item xs={12} sm={9}>
+                  <h5>{item.gridHeader}</h5>
+                  <p className={classes.decription}>{item.gridDescription.map(index => {
+                    return (index)
+                  })}</p>
+                  </Grid>
+                  </>
+              )
+            })} */}
+           </Grid>
+        </CardContent> 
     </Card>
-    </div>
   )
 }
 
