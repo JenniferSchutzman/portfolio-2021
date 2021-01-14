@@ -1,5 +1,17 @@
 import petrawall from '../../assets/images/petrawall.jpg';
 import ICRW from '../../assets/images/ICRW.png';
+import ywca from '../../assets/images/ywca.png'
+import WCC from '../../assets/images/WCC.jpg'
+import MCC from '../../assets/images/MCC.jpeg'
+
+// {
+//   gridImage: ,
+//   gridHeader: ``,
+//   gridSubHeader: ``,
+//   gridDescription: [],
+//   gridButtonOneLink:``,
+//   gridButtonOneText: ``
+// }
 
 
 const formerLifeData = {
@@ -33,8 +45,45 @@ const formerLifeData = {
       gridDescription: ['•	Leading technical guidance of data systems in 8 countries for world-renown private foundations, universities, governmental agencies, private research companies and corporations',
             '•	Training international data handlers on research design, creation of data collection tools, data storage, database management, and data analysis for research projects in Jordan, India, Tanzania, Kenya, Uganda, South Africa and Guyana',
             '•	Facilitating 10-20-person workshops, focus group discussions, in-depth interviews, key informant interviews, and survey collection in various countries'
-      ]
-  }]
+      ],
+      gridButtonOneLink:'https://www.icrw.org/',
+      gridButtonOneText: 'Learn more about ICRW'
+  },
+  {
+    gridImage: ywca,
+    gridHeader: `Outcomes and Evaluation Coordinator`,
+    gridSubHeader: `remote based for Cincinnati company `,
+    gridDescription: [`•	Led activities across data mining, analysis, and report writing for funders and high-level decision makers to better understand their process and results data`,
+    `•	Managed a multimillion dollar qualitative and quantitative database`,
+    `•	Worked across 5 different departments developing the data collection tools and database input storage systems for social workers and community contributors`
+  ],
+    gridButtonOneLink:'https://www.ywcacincinnati.org/',
+    gridButtonOneText: 'Learn more about YWCA '
+},
+{
+  gridImage: WCC,
+  gridHeader: `Women's Crisis Center`,
+  gridSubHeader: `Kentucky`,
+  gridDescription: [`•	Surveyed the challenges of undocumented survivors in the region to improve strategic planning`,
+  `•	Formulated winning proposals contributing to the growth of the department`,
+  `•	Managed cases for mostly undocumented survivors of domestic violence and human trafficking`
+],
+  gridButtonOneLink:`https://www.wccky.org/`,
+  gridButtonOneText: `Learn more about WCC`
+},
+{
+  gridImage: MCC,
+  gridHeader: `Program Support Officer, Data Monitoring & Evaluations,`,
+  gridSubHeader: `Based in Juba, South Sudan while also overseeing projects in north Sudan`,
+  gridDescription: [`• Managed research design and data analysis 10+ projects`,
+  `• Designed and trained local staff to implement effective data collection systems, analysis and reporting`,
+],
+  gridButtonOneLink:`https://mcc.org/learn/what/relief/south-sudan`,
+  gridButtonOneText: `MCC South Sudan`,
+  gridButtonTwoLink:`https://mcc.org/learn/where/africa/sudan`,
+  gridButtonTwoText: ` MCC Sudan`
+}
+]
 }
 
 export default formerLifeData;

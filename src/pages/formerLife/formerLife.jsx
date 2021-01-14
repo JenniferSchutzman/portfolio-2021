@@ -6,12 +6,9 @@ import formerLifeData from './formerLife.data.js'
 
 const FormerLife = props => {
 
-console.log("formerLifeData", formerLifeData)
-
   return (
-    // <h1>Former Life</h1>
     <>
-    <NavBar title="Former Life" subtitle="blah blah blah"/>
+    <NavBar title="Former Life" subtitle="10+ Years Working with Non-Profit Data Systems"/>
     <PageLayout  data={formerLifeData} />
     </>
   )
