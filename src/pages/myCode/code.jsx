@@ -7,7 +7,7 @@ const MyCode = props => {
 
   return (
     <>
-    <NavBar title="My Code" subtitle="Professional and personal coding experience"/>
+    <NavBar title="My Involvement with the Charleston Tech Community"/>
     <PageLayout  data={myCodeData} />
     </>
   )

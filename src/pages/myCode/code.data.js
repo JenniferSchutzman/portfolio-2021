@@ -7,13 +7,13 @@ import github from '../../assets/images/github.jpeg'
 import JRS from '../../assets/images/JRS.png'
 
 // {
-  //   gridImage: ,
-  //   gridHeader: ``,
-  //   gridSubHeader: ``,
-  //   gridDescription: [],
-  //   gridButtonOneLink:``,
-  //   gridButtonOneText: ``
-  // }
+//     gridImage: ,
+//     gridHeader: ``,
+//     gridSubHeader: ``,
+//     gridDescription: [],
+//     gridButtonOneLink:``,
+//     gridButtonOneText: ``
+//   }
 
 const myCodeData = {
   gridSection: [

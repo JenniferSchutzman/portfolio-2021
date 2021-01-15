@@ -1,15 +1,10 @@
 import React from 'react';
-
-import Grid from '@material-ui/core/Grid'
-import ButtonBase from '@material-ui/core/ButtonBase';
+import {useHistory} from 'react-router-dom'
+import { ButtonBase, Grid } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
-
 import useStyles from './home.styles.js'
 import homeData from './home.data.js'
-
 import NavBar from '../../components/NavBar.jsx'
-
-import {useHistory} from 'react-router-dom'
 
 
 const Home = () => {
@@ -20,18 +15,15 @@ const Home = () => {
     history.push(data.route)
   }
 
-  // console.log('homeData', homeData)
-  const title = "Jenny"
-  const subtitle="Libraries"
+  const title = "Jenny Schutzman, Software Engineer"
+  const subtitle= "Javascript, React, Redux, Angular, Rest APIs, NodeJS, Auth0, Fetch API, Axios, Isomorphic Fetch, useHttp, UI-Bootstrap, Material-UI Next, Semantic UI, i18Next, MySQL, Git/Github, html, css, atom, IntelliJ, VSCode and more."
 
   return (
     <div className={classes.root}>
         <Grid item xs={12}>
         <NavBar title={title} subtitle={subtitle}/>
-        {/* </Grid> */}
-        {/* <Grid item xs={12}> */}
+        </Grid>
           {homeData.map((data) => (
-            
             <ButtonBase 
             focusRipple 
             key={data.title}
@@ -60,7 +52,6 @@ const Home = () => {
       </span>
             </ButtonBase>
           ))}
-        </Grid>
     </div>
   )
 }

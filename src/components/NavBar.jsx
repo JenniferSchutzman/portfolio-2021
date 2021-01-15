@@ -1,32 +1,39 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
+import {AppBar, Grid, IconButton, Toolbar} from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
+import assisi from '../assets/images/assisi.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
-    background: theme.background
+    position: "relative",
+    textAlign: "center",
+  },
+  container: {
+    margin: "5%",
+    position: "absolute",
+    top: "50%",
+    left: "45%",
+    transform: "translate(-50%, -50%)"
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    position: "absolute",
+    top: "8px",
+    right: "16px",
   },
   subTitle: {
-    flexGrow: 1,
-    alignSelf: 'flex-end',
+    fontSize: "12px",
+    textTransform: "uppercase",
+    margin: "40px",
+    fontWeight: 400,
   },
   toolbar: {
-    minHeight: 128,
-    alignItems: 'flex-start',
-    paddingTop: theme.spacing(1),
-    paddingBottom: theme.spacing(2),
+    minHeight: "352px",
   },
   title: {
-    flexGrow: 1,
-    alignSelf: 'flex-end',
+    fontSize: "52px",
+    marginBottom: "30px",
   }
 }));
 
@@ -35,15 +42,22 @@ const NavBar = (props) =>  {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar className={classes.toolbar}>
-          <Typography className={classes.title} variant="h3" noWrap>
-            {props.title}
-          </Typography>
-          <br/>
-          <Typography className={classes.subTitle} variant="h5" >
+      <AppBar position="static" >
+        {/* <Toolbar className={classes.toolbar}> */}
+        <img src={assisi} alt={assisi} style={{opacity: 0.2, width: "100%", height: "500px" }} />
+          <Grid container className={classes.container}>
+            <Grid item xs={12} >
+             <Typography className={classes.title} variant="h3" >
+              {props.title}
+             </Typography>
+            </Grid>
+            <br/>
+             <Grid item xs={12}>
+              <Typography className={classes.subTitle} variant="h5" >
            {props.subtitle}
           </Typography>
+          </Grid>
+          </Grid>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -52,7 +66,7 @@ const NavBar = (props) =>  {
           >
             <MenuIcon />
           </IconButton>
-        </Toolbar>
+        {/* </Toolbar> */}
       </AppBar>
     </div>
   );

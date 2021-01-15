@@ -10,7 +10,7 @@ import Home from './pages/home/home.jsx'
 import AboutMe from './pages/aboutMe/aboutMe.jsx'
 import FormerLife from './pages/formerLife/formerLife.jsx'
 import MyCode from './pages/myCode/code.jsx'
-// import TechCommunity frmo './pages/techCommunity/techCommunity.jsx'
+import TechCommunity from './pages/techCommunity/techCommunity.jsx'
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route exact path="/aboutMeNow" component={AboutMe} />
         <Route exact path="/myFormerLife" component={FormerLife} />  
         <Route exact path="/myCode" component={MyCode} />
-        {/* <Route exact path="/involvementInTechCommunity" component={TechCommunity} />   */}
+        <Route exact path="/involvementInTechCommunity" component={TechCommunity} />   
       </Switch>
     </BrowserRouter>
   )
