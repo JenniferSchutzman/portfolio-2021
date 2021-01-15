@@ -13,9 +13,10 @@ const useStyles = makeStyles((theme) => ({
   container: {
     margin: "5%",
     position: "absolute",
-    top: "50%",
+    top: "40%",
     left: "45%",
-    transform: "translate(-50%, -50%)"
+    transform: "translate(-50%, -50%)",
+    textAlign: "left"
   },
   menuButton: {
     position: "absolute",
@@ -34,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: "52px",
     marginBottom: "30px",
+    marginLeft: "40px"
   }
 }));
 
@@ -43,20 +45,20 @@ const NavBar = (props) =>  {
   return (
     <div className={classes.root}>
       <AppBar position="static" >
-        {/* <Toolbar className={classes.toolbar}> */}
         <img src={assisi} alt={assisi} style={{opacity: 0.2, width: "100%", height: "500px" }} />
           <Grid container className={classes.container}>
             <Grid item xs={12} >
              <Typography className={classes.title} variant="h3" >
               {props.title}
              </Typography>
+             <hr style={{width:"90%", textAlign:"left", marginLeft: "40px"}}></hr>
             </Grid>
-            <br/>
-             <Grid item xs={12}>
+            <Grid item xs={12} sm={11}>
               <Typography className={classes.subTitle} variant="h5" >
-           {props.subtitle}
-          </Typography>
-          </Grid>
+               {props.subtitle}
+              </Typography>
+            </Grid>
+            <Grid item xs={0} sm={1}></Grid>
           </Grid>
           <IconButton
             edge="start"
@@ -66,7 +68,6 @@ const NavBar = (props) =>  {
           >
             <MenuIcon />
           </IconButton>
-        {/* </Toolbar> */}
       </AppBar>
     </div>
   );
