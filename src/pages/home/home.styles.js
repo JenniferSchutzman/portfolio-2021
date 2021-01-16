@@ -63,6 +63,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageTitle: {
     position: 'relative',
+    fontSize: '20px',
     padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
   },
   imageMarked: {
@@ -70,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
     width: 18,
     backgroundColor: theme.palette.common.white,
     position: 'absolute',
-    bottom: 1,
+    bottom: 100,
     left: 'calc(50% - 9px)',
     transition: theme.transitions.create('opacity'),
   },

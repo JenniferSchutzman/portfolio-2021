@@ -1,9 +1,10 @@
 import { makeStyles} from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  pageLayout: {
     // minWidth: 275,
     flexGrow: 1,
+    backgroundColor: "#00796b"
   },
   button: {
     "& > *": {
@@ -11,9 +12,12 @@ const useStyles = makeStyles((theme) => ({
     },
     width: "100%",
   },
-  description: {
-    backgroundColor: "#00ff00",
+  gridSection: {
+
   },
+  // description: {
+  //   backgroundColor: "#00ff00",
+  // },
   image: {
     width: "100%",
   },

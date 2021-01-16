@@ -1,28 +1,6 @@
 import { makeStyles} from "@material-ui/core/styles";
 
 
-  // const list = (anchor) => (
-  //   // <div
-  //   //   // className={FormatColorTextSharp(classes.list, {
-  //   //   //   [classes.fullList]: anchor === "top" || anchor === "bottom",
-  //   //   // })}
-  //   //   role="presentation"
-  //   //   onClick={toggleDrawer(false)}
-  //   //   onKeyDown={toggleDrawer(false)}
-  //   // >
-  //   //   <List>
-  //   //     {navBarData.map((data) => (
-  //   //       // will put history.push onClick o the ListItem mapping to url
-  //   //       <ListItem button key={data.listName}>
-  //   //         <ListItemText primary={data.listName} />
-  //   //       </ListItem>
-  //   //     ))}
-  //   //   </List>
-  //   </div>
-  // );
-
-
-
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "relative",
@@ -53,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     width: 250,
   },
   subTitle: {
-    fontSize: "12px",
+    // fontSize: "12px",
     textTransform: "uppercase",
     margin: "40px",
     fontWeight: 400,

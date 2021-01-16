@@ -1,30 +1,38 @@
 import React from "react";
 import { Button, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import useStyles from "../assets/styling/pageLayout.styling.js";
-import {
-  MuiThemeProvider,
-  createMuiTheme,
-  withStyles,
-} from "@material-ui/core/styles";
+import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "../assets/styling/theme.js";
 
 const PageLayout = (props) => {
   const classes = useStyles();
   return (
     <MuiThemeProvider theme={theme}>
-      <Card className={classes.root}>
-        <img
-          src={props.data.img}
-          alt={props.data.img}
-          className={classes.image}
-        />
-        <CardContent>
-          {props.data.p &&
-            props.data.p.map((p) => {
-              return <p>{p}</p>;
-            })}
-        </CardContent>
-        <CardContent>
+      <Card>
+        <div className={classes.pageLayout}>
+          <img
+            src={props.data.img}
+            alt={props.data.img}
+            className={classes.image}
+          />
+          <CardContent className={classes.card}>
+            {props.data.p &&
+              props.data.p.map((p) => {
+                return (
+                  <p
+                    style={{
+                      color: "#FFFFFF",
+                      fontSize: "18px",
+                      fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+                    }}
+                  >
+                    {p}
+                  </p>
+                );
+              })}
+          </CardContent>
+        </div>
+        <CardContent className={classes.gridSection}>
           <Grid container spacing={5}>
             {props.data.gridSection &&
               props.data.gridSection.map((x) => {
@@ -40,7 +48,13 @@ const PageLayout = (props) => {
                     <Grid item xs={12} sm={9}>
                       <h2>{x.gridHeader}</h2>
                       <h5>{x.gridSubHeader}</h5>
-                      <p>
+                      <p
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "18px",
+                          fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+                        }}
+                      >
                         {x.gridDescription.map((bulletPoint) => {
                           return (
                             <Typography paragraph>{bulletPoint}</Typography>

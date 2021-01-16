@@ -46,6 +46,9 @@ const Home = () => {
               component="span"
               variant="subtitle1"
               color={classes.imageTitle}
+              style={{
+                fontSize: "30px",
+              }}
             >
               {data.title}
               <span className={classes.imageMarked} />

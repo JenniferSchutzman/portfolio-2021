@@ -9,7 +9,6 @@ import {
   ListItemText,
   Drawer,
 } from "@material-ui/core";
-import clsx from "clsx";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
 import assisi from "../assets/images/assisi.jpg";
@@ -78,7 +77,13 @@ const NavBar = (props) => {
         />
         <Grid container className={classes.container}>
           <Grid item xs={12}>
-            <Typography className={classes.title} variant="h3">
+            <Typography
+              className={classes.title}
+              style={{
+                fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+              }}
+              variant="h3"
+            >
               {props.title}
             </Typography>
             <hr
@@ -86,7 +91,13 @@ const NavBar = (props) => {
             ></hr>
           </Grid>
           <Grid item xs={12} sm={11}>
-            <Typography className={classes.subTitle} variant="h5">
+            <Typography
+              className={classes.subTitle}
+              style={{
+                fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+              }}
+              variant="h6"
+            >
               {props.subtitle}
             </Typography>
           </Grid>
