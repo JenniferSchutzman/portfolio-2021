@@ -1,13 +1,11 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import {
   AppBar,
   Button,
-  // Divider,
   Grid,
-  IconButton,
   List,
   ListItem,
-  ListItemIcon,
   ListItemText,
   Drawer,
 } from "@material-ui/core";
@@ -17,18 +15,13 @@ import MenuIcon from "@material-ui/icons/Menu";
 import assisi from "../assets/images/assisi.jpg";
 import useStyles from "../assets/styling/navBar.styling.js";
 import "fontsource-roboto";
-import { FormatColorTextSharp } from "@material-ui/icons";
 import navBarData from "./navBar.data.js";
 import CloseIcon from "@material-ui/icons/Close";
 
-// console.log("navBaradat", navBarData);
-
 const NavBar = (props) => {
-  // const [state, setState] = useState({
-  //   right: false,
-  // });
   const [openMenu, setOpenMenu] = useState(false);
   const classes = useStyles();
+  const history = useHistory();
 
   const toggleDrawer = (event) => {
     console.log("event inside toggleDrawer", event);
@@ -44,6 +37,10 @@ const NavBar = (props) => {
     setOpenMenu(!openMenu);
   };
 
+  const routeToPage = (url) => {
+    history.push(url);
+  };
+
   const list = (
     <div
       role="presentation"
@@ -55,8 +52,12 @@ const NavBar = (props) => {
       </Button>
       <List className={classes.fullList}>
         {navBarData.map((data) => (
-          // will put history.push onClick to the ListItem mapping to url
-          <ListItem button key={data.listName} className={classes.list}>
+          <ListItem
+            button
+            key={data.listName}
+            onClick={() => routeToPage(data.url)}
+            className={classes.list}
+          >
             <ListItemText
               primary={data.listName}
               className={classes.fullList}
