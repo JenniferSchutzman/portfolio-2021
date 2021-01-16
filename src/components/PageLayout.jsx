@@ -15,9 +15,9 @@ const PageLayout = (props) => {
             alt={props.data.img}
             className={classes.image}
           />
-          <CardContent className={classes.card}>
-            {props.data.p &&
-              props.data.p.map((p) => {
+          {props.data.p && (
+            <CardContent className={classes.card}>
+              {props.data.p.map((p) => {
                 return (
                   <p
                     style={{
@@ -30,12 +30,13 @@ const PageLayout = (props) => {
                   </p>
                 );
               })}
-          </CardContent>
+            </CardContent>
+          )}
         </div>
-        <CardContent className={classes.gridSection}>
-          <Grid container spacing={5}>
-            {props.data.gridSection &&
-              props.data.gridSection.map((x) => {
+        {props.data.gridSection && (
+          <CardContent className={classes.gridSection}>
+            <Grid container spacing={5}>
+              {props.data.gridSection.map((x) => {
                 return (
                   <>
                     <Grid item xs={12} sm={3} center>
@@ -89,8 +90,9 @@ const PageLayout = (props) => {
                   </>
                 );
               })}
-          </Grid>
-        </CardContent>
+            </Grid>
+          </CardContent>
+        )}
       </Card>
     </MuiThemeProvider>
   );

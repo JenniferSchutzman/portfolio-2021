@@ -1,38 +1,35 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
 import {
   AppBar,
   Button,
   Grid,
+  Drawer,
   List,
   ListItem,
   ListItemText,
-  Drawer,
 } from "@material-ui/core";
+import { useHistory } from "react-router-dom";
+import menuDrawerData from "./menuDrawer.data.js";
+import CloseIcon from "@material-ui/icons/Close";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
 import assisi from "../assets/images/assisi.jpg";
 import useStyles from "../assets/styling/navBar.styling.js";
 import "fontsource-roboto";
-import navBarData from "./navBar.data.js";
-import CloseIcon from "@material-ui/icons/Close";
 
 const NavBar = (props) => {
   const [openMenu, setOpenMenu] = useState(false);
-  const classes = useStyles();
   const history = useHistory();
+  const classes = useStyles();
 
   const toggleDrawer = (event) => {
-    console.log("event inside toggleDrawer", event);
-    console.log("openMenu", openMenu);
-    // if (
-    //   event &&
-    //   event.type === "keydown" &&
-    //   (event.key === "Tab" || event.key === "Shift")
-    // ) {
-    //   return;
-    // }
-    // put breakpoints in here
+    if (
+      event &&
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
     setOpenMenu(!openMenu);
   };
 
@@ -45,12 +42,17 @@ const NavBar = (props) => {
       role="presentation"
       onClick={(event) => toggleDrawer(event)}
       onKeyDown={(event) => toggleDrawer(event)}
+      className={classes.root}
+      style={{ backgroundColor: "#00796b", color: "#FFFFFF" }}
     >
-      <Button onClick={toggleDrawer} className={classes.closeIcon}>
-        <CloseIcon fontSize="large" />
+      <Button
+        onClick={(event) => toggleDrawer(event)}
+        className={classes.closeIcon}
+      >
+        <CloseIcon fontSize="large" style={{ color: "#ffffff" }} />
       </Button>
-      <List className={classes.fullList}>
-        {navBarData.map((data) => (
+      <List>
+        {menuDrawerData.map((data) => (
           <ListItem
             button
             key={data.listName}
@@ -59,14 +61,19 @@ const NavBar = (props) => {
           >
             <ListItemText
               primary={data.listName}
-              className={classes.fullList}
-            />
+              // className={classes.text}
+              style={{
+                fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+                fontSize: "50px",
+              }}
+            >
+              {/* <p className={classes.text}>{data.listName}</p> */}
+            </ListItemText>
           </ListItem>
         ))}
       </List>
     </div>
   );
-
   return (
     <div className={classes.root}>
       <AppBar position="static">

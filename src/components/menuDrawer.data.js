@@ -1,5 +1,5 @@
 
-const navBarData = [
+const menuDrawerData = [
   {
     listName: `Home`,
     url: `/`
@@ -22,4 +22,4 @@ const navBarData = [
   }
 ]
 
-export default navBarData;
+export default menuDrawerData;
