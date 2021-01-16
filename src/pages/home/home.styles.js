@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
     width: 18,
     backgroundColor: theme.palette.common.white,
     position: 'absolute',
-    bottom: 125,
+    bottom: 1,
     left: 'calc(50% - 9px)',
     transition: theme.transitions.create('opacity'),
   },
