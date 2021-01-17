@@ -10,7 +10,7 @@ const homeData = [{
   route: '/aboutMeNow'
 },
 {
-  title: 'The Other Life',
+  title: 'Life Before Software',
   img: cherryBlossom,
   width: '50%',
   route: '/myFormerLife'

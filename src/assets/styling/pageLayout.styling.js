@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
   image: {
     width: "100%",
+    marginTop: "25px"
   },
   secondButton: {
     marginTop: "20px"

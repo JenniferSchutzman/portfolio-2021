@@ -6,14 +6,6 @@ import reactHooks from '../../assets/images/reactHooks.png'
 import github from '../../assets/images/github.jpeg'
 import JRS from '../../assets/images/JRS.png'
 
-// {
-//     gridImage: ,
-//     gridHeader: ``,
-//     gridSubHeader: ``,
-//     gridDescription: [],
-//     gridButtonOneLink:``,
-//     gridButtonOneText: ``
-//   }
 
 const myCodeData = {
   gridSection: [
@@ -21,7 +13,7 @@ const myCodeData = {
       gridImage: tallo,
       gridHeader: `Tallo`,
       gridSubHeader: `Full stack Software Engineer since October 2018 to current in Mount Pleasant, SC`,
-      gridDescription: [`     For the past 2+ years I've been a Full Stack Software Engineer at
+      gridDescription: [`     For the past 2 and a half years I've been a Full Stack Software Engineer at
       the Mount Pleasant based tech company Tallo. On a team with 5
       other developers, we maintain the Tallo tech product from back
       to front for millions of users. Main highlights of my
@@ -30,7 +22,9 @@ const myCodeData = {
       and LESS; personally created dozens of React components for the
       new ui kit; central in the transition to React Hooks; and
       currently starting to convert the entire existing from AngularJS
-      to React.`],
+      to React.`, `Tallo is the place where I grew into a mid-level software engineer.  
+      Without the countless hours of peer coding with Francis and Ian, and the consistantly excellent leadership from Stokes, 
+      I know I would never have become the developer that I am today.  Thank you Tallo dev team for letting me asking the stupid questions during my "junior phase" and for not getting annoyed as I relentlessly pushed to switch our largescale application from Angular to React.  I've thoroughly enjoyed playing being an integral role in the transition!`],
       gridButtonOneLink:`https://app.tallo.com/register`,
       gridButtonOneText: ` Create a free Tallo account to see the app I work on`,
       gridButtonTwoLink: `https://github.com/STEMPremier/celula`,
@@ -45,8 +39,8 @@ const myCodeData = {
       companies. For 3 months I worked full-time to build a marketing
       website for the downtown Charleston based company Gotcha. Using
       React, Redux, and CSS, I drafted their new marketing website.
-      This was built in bare bones CSS. It was too custom to allow for
-      outside style libraries or templates. This contract gave me the
+      This was built in CSS without any helper style libraries or packages. It was too custom to allow for
+      outside style framework or templates. Thus, this contract gave me the
       opportunitiy to drastically improve my CSS skills; launching me
       into a new level of design code understanding and appreciation
       for further front-end expertise. Click below to check it out.`],
@@ -57,11 +51,11 @@ const myCodeData = {
       gridImage: vizbii,
       gridHeader: `Vizbii`,
       gridSubHeader: `Temporary fulltime frontend contract for 5 months in downtown Charleston, SC`,
-      gridDescription: [`       My first full-time contract after code camp was for another
+      gridDescription: [`My first full-time contract after code camp was for another
       local company in downtown Charleston called Vizbii. I was with that
       team for 5 months on a temporary full-time contract. There I
       built the front-end of the their new admin app, along with a
-      couple of other tiny things. Utilizing AuthO, React, Redux, CSS,
+      couple of other small apps. Utilizing AuthO, React, Redux, CSS,
       Axios, and more, I was the sole front-end developer on the admin
       app. Personal highlights for me at this project were getting to
       plug in Auth0, working with styled React components for the
@@ -69,9 +63,28 @@ const myCodeData = {
       and lots of API calls. Unfortunately the client admin app is not
       publicly accessible, but click below to learn more about this
       ground-breaking company. (I believe the company now just goes by
-      the name "Morphii".)`],
+      the name "Morphii".)`, `I am forever grateful to the Vizbii team for mentoring me and taking me on straight out of code camp.  I'm sure most developers can relate to how overwhelming that first software engineer position can feel, and this team was patient, kind, and immensely helpful giving me my first chance to dive in and start this career that I absolutely love.  Thank you Michael!  I will never forget your kindness and patient in giving this newbie a shot to get her feet wet.`],
       gridButtonOneLink:`https://morphii.com/`,
       gridButtonOneText: ` Check out Morphii`
+    },
+    {
+      gridImage: reactHooks,
+      gridHeader: `Hooks Live Coding Instruction`,
+      gridSubHeader: `2 different live coding presentations I've lead in the past year on hooks`,
+      gridDescription: [`This past year I created a demo on React hooks and presented it the CTO and Senior Dev.  We soon after implementented hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
+      `, `I also created a second more intermediate demo and presented in live on zoom to the CHS Women Devs group in December of 2020. `],
+      gridButtonOneLink:`https://github.com/JenniferSchutzman/hooks-practice`,
+      gridButtonOneText: `Check out the basic intro to react hooks demo`,
+      gridButtonTwoLink: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`,
+      gridButtonTwoText: `Check out the "Helpful Hooks" live coding demo`
+    },
+    {
+      gridImage: github ,
+      gridHeader: `My Github Page`,
+      gridSubHeader: ``,
+      gridDescription: [`While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of full-time software development.`],
+      gridButtonOneLink:`https://github.com/JenniferSchutzman`,
+      gridButtonOneText: `Check out the repos on my github page`
     },
     {
       gridImage: fountain ,
@@ -94,29 +107,10 @@ const myCodeData = {
       app demo`
     },
     {
-      gridImage: reactHooks,
-      gridHeader: `Hooks Live Coding Instruction`,
-      gridSubHeader: `2 different live coding presentations I've lead in the past year on hooks`,
-      gridDescription: [`This past year I created a demo on React hooks and presented it the CTO and Senior Dev.  We soon after implementented hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
-      `, `I also created a second more intermediate demo and presented in live on zoom to the CHS Women Devs group in December of 2020. `],
-      gridButtonOneLink:`https://github.com/JenniferSchutzman/hooks-practice`,
-      gridButtonOneText: `Check out the basic intro to react hooks demo`,
-      gridButtonTwoLink: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`,
-      gridButtonTwoText: `Check out the "Helpful Hooks" live coding demo`
-    },
-    {
-      gridImage: github ,
-      gridHeader: `My Github Page`,
-      gridSubHeader: ``,
-      gridDescription: [`While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of full-time software development.`],
-      gridButtonOneLink:`https://github.com/JenniferSchutzman`,
-      gridButtonOneText: `Check out the repos on my github page`
-    },
-    {
       gridImage: JRS ,
       gridHeader: `JRS Code School`,
       gridSubHeader: `Full stack bootcamp`,
-      gridDescription: [`Under Tom Wilson's and Trip Ottinger's leadership, I attended the 3 month code bootcamp in Shem Creek.  In this fullstack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and much more!`],
+      gridDescription: [`Under Tom Wilson's and Trip Ottinger's leadership, I attended the 3 month code bootcamp in Shem Creek.  In this fullstack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and more!  Thank you guys for this amazing gift.`],
       gridButtonOneLink:`https://www.harborec.com/jrs-coding-school`,
       gridButtonOneText: `  Learn more about the coding bootcamp`
     }
