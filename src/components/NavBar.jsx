@@ -33,6 +33,8 @@ const NavBar = (props) => {
     setOpenMenu(!openMenu);
   };
 
+  console.log("toggleDrawer", openMenu);
+
   const routeToPage = (url) => {
     history.push(url);
   };
@@ -61,14 +63,11 @@ const NavBar = (props) => {
           >
             <ListItemText
               primary={data.listName}
-              // className={classes.text}
               style={{
                 fontFamily: "Source Sans Pro, Helvetica, sans-serif",
                 fontSize: "50px",
               }}
-            >
-              {/* <p className={classes.text}>{data.listName}</p> */}
-            </ListItemText>
+            ></ListItemText>
           </ListItem>
         ))}
       </List>

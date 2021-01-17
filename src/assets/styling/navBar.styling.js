@@ -1,6 +1,8 @@
 import { makeStyles} from "@material-ui/core/styles";
 
 
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "relative",
@@ -14,11 +16,13 @@ const useStyles = makeStyles((theme) => ({
     left: "45%",
     transform: "translate(-50%, -50%)",
     textAlign: "left",
+    [theme.breakpoints.only('xs')]: {
+      top: '50%',
+      margin: '0'
+    },
   },
     fullList: {
     width: 'auto',
-    // fontSize: "20px",
-    // color: "FFFFFF" 
   },
   closeIcon: {
     marginLeft: "190px" ,
@@ -38,11 +42,13 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     margin: "40px",
     fontWeight: 400,
+    [theme.breakpoints.only('xs')]: {
+      fontSize: '14px',
+      marginTop: "5px",
+      marginRight: "20px",
+      marginBottom: "0px"
+    },
   },
-  // text: {
-  //   fontSize: "50px",
-  //   fontWeight: "800px"
-  // },
   toolbar: {
     minHeight: "352px",
   },
@@ -50,6 +56,10 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "52px",
     marginBottom: "30px",
     marginLeft: "40px",
+    [theme.breakpoints.only('xs')]: {
+      fontSize: '20px',
+    },
+    
   },
 }));
 

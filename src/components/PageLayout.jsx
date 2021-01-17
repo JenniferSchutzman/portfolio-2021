@@ -74,16 +74,18 @@ const PageLayout = (props) => {
                           </Button>
                         </a>
                         {x.gridButtonTwoLink && (
-                          <a
-                            href={x.gridButtonTwoLink}
-                            target={"_blank"}
-                            rel="noreferrer"
-                            style={{ textDecoration: "none" }}
-                          >
-                            <Button variant="contained" color="primary">
-                              {x.gridButtonTwoText}
-                            </Button>
-                          </a>
+                          <div className={classes.secondButton}>
+                            <a
+                              href={x.gridButtonTwoLink}
+                              target={"_blank"}
+                              rel="noreferrer"
+                              style={{ textDecoration: "none" }}
+                            >
+                              <Button variant="contained" color="primary">
+                                {x.gridButtonTwoText}
+                              </Button>
+                            </a>
+                          </div>
                         )}
                       </div>
                     </Grid>
