@@ -30,7 +30,10 @@ const useStyles = makeStyles((theme) => ({
   },
   list: {
     width: 250,
-    color: "FFFFFF" 
+    color: "FFFFFF" ,
+    [theme.breakpoints.only('xs')]: {
+     width: "100%"
+    },
   },
   menuButton: {
     position: "absolute",

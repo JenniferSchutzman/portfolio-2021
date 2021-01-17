@@ -9,7 +9,7 @@ const AboutMe = (props) => {
     <>
       <NavBar
         title="Who am I and what is it like to work with me?"
-        subtitle="A happy grateful motivated Software Engineer living in the beautiful town of Mount Pleasant, SC"
+        subtitle="A happy, grateful, motivated Software Engineer living in the beautiful town of Mount Pleasant, SC"
       />
       <PageLayout data={aboutMeData} />
     </>

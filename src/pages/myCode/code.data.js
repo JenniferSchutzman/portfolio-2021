@@ -12,35 +12,33 @@ const myCodeData = {
     {
       gridImage: tallo,
       gridHeader: `Tallo`,
-      gridSubHeader: `Full stack Software Engineer since October 2018 to current in Mount Pleasant, SC`,
-      gridDescription: [`     For the past 2 and a half years I've been a Full Stack Software Engineer at
+      gridSubHeader: `Full-Stack Software Engineer since October 2018 to current in Mount Pleasant, SC`,
+      gridDescription: [`     For the past 2 and a half years, I've been a Full-Stack Software Engineer at
       the Mount Pleasant based tech company Tallo. On a team with 5
       other developers, we maintain the Tallo tech product from back
       to front for millions of users. Main highlights of my
-      direct involvement include: took part in complete redesign of the
+      direct involvement include: worked with 2 other developers on the complete redesign of the
       Tallo app profile functionality utlizing AngularJS, Java, MySQL
       and LESS; personally created dozens of React components for the
-      new ui kit; central in the transition to React Hooks; and
-      currently starting to convert the entire existing from AngularJS
-      to React.`, `Tallo is the place where I grew into a mid-level software engineer.  
-      Without the countless hours of peer coding with Francis and Ian, and the consistantly excellent leadership from Stokes, 
-      I know I would never have become the developer that I am today.  Thank you Tallo dev team for letting me asking the stupid questions during my "junior phase" and for not getting annoyed as I relentlessly pushed to switch our largescale application from Angular to React.  I've thoroughly enjoyed playing being an integral role in the transition!`],
+      new UI kit; a lead in the transition to React Hooks; and
+      currently 1 of 2 developers converting the entire existing app from AngularJS
+      to React.`],
       gridButtonOneLink:`https://app.tallo.com/register`,
       gridButtonOneText: ` Create a free Tallo account to see the app I work on`,
       gridButtonTwoLink: `https://github.com/STEMPremier/celula`,
-      gridButtonTwoText: `See the UI kit where I created several of components`
+      gridButtonTwoText: `See the UI kit where I created several components`
     },
     {
       gridImage: gotcha,
       gridHeader: `Gotcha (Holy Spokes Bike Share)`,
       gridSubHeader: `Temporary fulltime frontend contract for 3 months in downtown Charleston, SC`,
       gridDescription: [`    Before settling into a permanent position at Tallo, I did a
-      couple of full time consultancy projects for other local tech
+      couple of full-time consultancy projects for other local tech
       companies. For 3 months I worked full-time to build a marketing
       website for the downtown Charleston based company Gotcha. Using
-      React, Redux, and CSS, I drafted their new marketing website.
-      This was built in CSS without any helper style libraries or packages. It was too custom to allow for
-      outside style framework or templates. Thus, this contract gave me the
+      React, Redux and CSS, I drafted their new marketing website.
+      This was built in CSS without any helper style libraries or packages. It was too customized to allow for
+      outside style frameworks or templates. Thus, this contract gave me the
       opportunitiy to drastically improve my CSS skills; launching me
       into a new level of design code understanding and appreciation
       for further front-end expertise. Click below to check it out.`],
@@ -55,24 +53,25 @@ const myCodeData = {
       local company in downtown Charleston called Vizbii. I was with that
       team for 5 months on a temporary full-time contract. There I
       built the front-end of the their new admin app, along with a
-      couple of other small apps. Utilizing AuthO, React, Redux, CSS,
-      Axios, and more, I was the sole front-end developer on the admin
-      app. Personal highlights for me at this project were getting to
-      plug in Auth0, working with styled React components for the
-      first time, and developing my React skills form management
-      and lots of API calls. Unfortunately the client admin app is not
+      couple of other small apps. Utilizing AuthO, React, Redux, CSS and
+      Axios, I was the sole front-end developer on the admin
+      app. Personal highlights at this project include getting to
+      plug in Auth0, working with styled React components, developed my React skills with form management
+      and numerous API calls. Unfortunately, the client admin app is not
       publicly accessible, but click below to learn more about this
-      ground-breaking company. (I believe the company now just goes by
-      the name "Morphii".)`, `I am forever grateful to the Vizbii team for mentoring me and taking me on straight out of code camp.  I'm sure most developers can relate to how overwhelming that first software engineer position can feel, and this team was patient, kind, and immensely helpful giving me my first chance to dive in and start this career that I absolutely love.  Thank you Michael!  I will never forget your kindness and patient in giving this newbie a shot to get her feet wet.`],
+      ground-breaking company. I believe the company now just goes by
+      the name "Morphii".  I am forever grateful to the Vizbii team for mentoring me and taking me on straight out of code camp.  I'm sure most developers can relate to how overwhelming that first 
+      software engineer position can feel.
+        Thank you Vizbii for giving me my first chance to dive in!`],
       gridButtonOneLink:`https://morphii.com/`,
       gridButtonOneText: ` Check out Morphii`
     },
     {
       gridImage: reactHooks,
       gridHeader: `Hooks Live Coding Instruction`,
-      gridSubHeader: `2 different live coding presentations I've lead in the past year on hooks`,
-      gridDescription: [`This past year I created a demo on React hooks and presented it the CTO and Senior Dev.  We soon after implementented hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
-      `, `I also created a second more intermediate demo and presented in live on zoom to the CHS Women Devs group in December of 2020. `],
+      gridSubHeader: `2 different live coding presentations I've lead in the past year on Hooks`,
+      gridDescription: [`This past year I created a demo on React Hooks and presented it to the CTO and Senior Dev.  We soon after implementented Hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
+      `, `I also created a second more intermediate demo and presented it live on zoom to the Charleston Women Devs group in December of 2020. `],
       gridButtonOneLink:`https://github.com/JenniferSchutzman/hooks-practice`,
       gridButtonOneText: `Check out the basic intro to react hooks demo`,
       gridButtonTwoLink: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`,
@@ -89,7 +88,7 @@ const myCodeData = {
     {
       gridImage: fountain ,
       gridHeader: `Charleston Tour Finder`,
-      gridSubHeader: `Full stack app I made at the end of bootcamp for "graduation"` ,
+      gridSubHeader: `Full-Stack app I made at the end of bootcamp for graduation` ,
       gridDescription: [` At the end of code camp, each student was responsible for
       building their own app from back to front utilizing
       CouchDB/PouchDB, React, and Redux. I also chose to use Material
@@ -110,7 +109,7 @@ const myCodeData = {
       gridImage: JRS ,
       gridHeader: `JRS Code School`,
       gridSubHeader: `Full stack bootcamp`,
-      gridDescription: [`Under Tom Wilson's and Trip Ottinger's leadership, I attended the 3 month code bootcamp in Shem Creek.  In this fullstack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and more!  Thank you guys for this amazing gift.`],
+      gridDescription: [`Under the leadership of Tom Wilson and Trip Ottinger, I attended the 3 month code bootcamp in Shem Creek.  In this full-stack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and more!  Thank you guys for this amazing gift.`],
       gridButtonOneLink:`https://www.harborec.com/jrs-coding-school`,
       gridButtonOneText: `  Learn more about the coding bootcamp`
     }

@@ -39,14 +39,14 @@ const PageLayout = (props) => {
               {props.data.gridSection.map((x) => {
                 return (
                   <>
-                    <Grid item xs={12} sm={3} center>
+                    <Grid item xs={12} md={3} center>
                       <img
-                        className={classes.image}
+                        className={classes.imageGridSection}
                         src={x.gridImage}
                         alt={x.gridHeader}
                       />
                     </Grid>
-                    <Grid item xs={12} sm={9}>
+                    <Grid item xs={12} md={9}>
                       <h2>{x.gridHeader}</h2>
                       <h5>{x.gridSubHeader}</h5>
                       <p

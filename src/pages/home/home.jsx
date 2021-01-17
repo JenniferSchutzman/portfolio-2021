@@ -16,7 +16,7 @@ const Home = () => {
 
   const title = "Jenny Schutzman, Software Engineer";
   const subtitle =
-    "Javascript, React, Redux, Angular, Rest APIs, NodeJS, Express, Auth0, Fetch API, Axios, Isomorphic Fetch, useHttp, UI-Bootstrap, Material-UI Next, Semantic UI, i18Next, MySQL, Mongo DB, Pouch DB, Jest, React-Testing-Library, Mock Service Worker, Git/Github, html, css, atom, IntelliJ, VSCode and more.";
+    "Javascript, React, Redux, Angular, Rest APIs, NodeJS, Express, Auth0, Fetch API, Axios, Isomorphic Fetch, useHttp, UI-Bootstrap, Material-UI Next, Semantic UI, i18Next, MySQL, Mongo DB, Pouch DB, Jest, React Testing Library, Mock Service Worker, Git/Github, html, css, atom, IntelliJ, VSCode and more.";
 
   return (
     <div className={classes.root}>
