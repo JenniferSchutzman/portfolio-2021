@@ -16,9 +16,8 @@ const useStyles = makeStyles((theme) => ({
     left: "45%",
     transform: "translate(-50%, -50%)",
     textAlign: "left",
-    [theme.breakpoints.only('xs')]: {
+    [theme.breakpoints.down('md')]: {
       top: '50%',
-      margin: '0'
     },
   },
     fullList: {

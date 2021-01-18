@@ -49,7 +49,7 @@ const myCodeData = {
       gridImage: vizbii,
       gridHeader: `Vizbii`,
       gridSubHeader: `Temporary fulltime frontend contract for 5 months in downtown Charleston, SC`,
-      gridDescription: [`My first full-time contract after code camp was for another
+      gridDescription: [`My first contract after code camp was for another
       local company in downtown Charleston called Vizbii. I was with that
       team for 5 months on a temporary full-time contract. There I
       built the front-end of the their new admin app, along with a
