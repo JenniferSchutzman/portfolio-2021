@@ -31,7 +31,7 @@ const myCodeData = {
     {
       gridImage: gotcha,
       gridHeader: `Gotcha (Holy Spokes Bike Share)`,
-      gridSubHeader: `Temporary fulltime frontend contract for 3 months in downtown Charleston, SC`,
+      gridSubHeader: `Temporary full-time front-end contract for 3 months in downtown Charleston, SC`,
       gridDescription: [` Before settling into a permanent position at Tallo, I did a
       couple of full-time consultancy projects for other local tech
       companies. Using
@@ -47,7 +47,7 @@ const myCodeData = {
     {
       gridImage: vizbii,
       gridHeader: `Vizbii`,
-      gridSubHeader: `Temporary full-time frontend contract for 5 months in downtown Charleston, SC`,
+      gridSubHeader: `Temporary full-time front-end contract for 5 months in downtown Charleston, SC`,
       gridDescription: [`My first contract after code camp was for another
       local company in downtown Charleston called Vizbii. There I
       built the front-end of the their new admin app, along with a

@@ -17,10 +17,12 @@ const techCommunityData = {
       (1 online for technical topics and 1 outdoors for a happy hour during these COVID-19 days).  
       It's been an unique and wonderful experience to create a casual group of female software engineers that would rarely 
       get to talk code with friends in our normal out-of-work settings.  
-      It's now mostly a sisterhood of developers to lean on, share new technical concepts, seek our advice for professional growth and simply enjoy one another's company.`
+      It's now mostly a sisterhood of developers to lean on, share new technical concepts, seek our advice for professional growth and simply enjoy one another's company.`, `Also a special shout out to out sponsor GrubHub...thank you!`
     ],
       gridButtonOneLink:`https://www.meetup.com/Charleston-women-devs/`,
-      gridButtonOneText: `Check out our upcoming events`
+      gridButtonOneText: `Check out our upcoming events`,
+      gridButtonTwoLink: `https://www.grubhub.com/`,
+      gridButtonTwoText: `Support our sponsor GrubHub`
     },
     {
       gridImage: CWIT ,
