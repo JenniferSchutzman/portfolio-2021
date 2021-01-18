@@ -13,12 +13,12 @@ const myCodeData = {
       gridImage: tallo,
       gridHeader: `Tallo`,
       gridSubHeader: `Full-Stack Software Engineer since October 2018 to current in Mount Pleasant, SC`,
-      gridDescription: [`     For the past 2 and a half years, I've been a Full-Stack Software Engineer at
+      gridDescription: [`For the past 2 and a half years, I've been a Full-Stack Software Engineer at
       the Mount Pleasant based tech company Tallo. On a team with 5
       other developers, we maintain the Tallo tech product from back
       to front for millions of users. Main highlights of my
       direct involvement include: worked with 2 other developers on the complete redesign of the
-      Tallo app profile functionality utlizing AngularJS, Java, MySQL
+      Tallo app profile functionality utilizing AngularJS, Java, MySQL
       and LESS; personally created dozens of React components for the
       new UI kit; a lead in the transition to React Hooks; and
       currently 1 of 2 developers converting the entire existing app from AngularJS
@@ -32,10 +32,9 @@ const myCodeData = {
       gridImage: gotcha,
       gridHeader: `Gotcha (Holy Spokes Bike Share)`,
       gridSubHeader: `Temporary fulltime frontend contract for 3 months in downtown Charleston, SC`,
-      gridDescription: [`    Before settling into a permanent position at Tallo, I did a
+      gridDescription: [` Before settling into a permanent position at Tallo, I did a
       couple of full-time consultancy projects for other local tech
-      companies. For 3 months I worked full-time to build a marketing
-      website for the downtown Charleston based company Gotcha. Using
+      companies. Using
       React, Redux and CSS, I drafted their new marketing website.
       This was built in CSS without any helper style libraries or packages. It was too customized to allow for
       outside style frameworks or templates. Thus, this contract gave me the
@@ -48,10 +47,9 @@ const myCodeData = {
     {
       gridImage: vizbii,
       gridHeader: `Vizbii`,
-      gridSubHeader: `Temporary fulltime frontend contract for 5 months in downtown Charleston, SC`,
+      gridSubHeader: `Temporary full-time frontend contract for 5 months in downtown Charleston, SC`,
       gridDescription: [`My first contract after code camp was for another
-      local company in downtown Charleston called Vizbii. I was with that
-      team for 5 months on a temporary full-time contract. There I
+      local company in downtown Charleston called Vizbii. There I
       built the front-end of the their new admin app, along with a
       couple of other small apps. Utilizing AuthO, React, Redux, CSS and
       Axios, I was the sole front-end developer on the admin
@@ -60,7 +58,7 @@ const myCodeData = {
       and numerous API calls. Unfortunately, the client admin app is not
       publicly accessible, but click below to learn more about this
       ground-breaking company. I believe the company now just goes by
-      the name "Morphii".  I am forever grateful to the Vizbii team for mentoring me and taking me on straight out of code camp.  I'm sure most developers can relate to how overwhelming that first 
+      the name "Morphii".  I am forever grateful to the Vizbii team for taking the time to mentor me and taking me on straight out of code camp.  I'm sure most developers can relate to how overwhelming that first 
       software engineer position can feel.
         Thank you Vizbii for giving me my first chance to dive in!`],
       gridButtonOneLink:`https://morphii.com/`,
