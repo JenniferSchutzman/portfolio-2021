@@ -9,9 +9,8 @@ const formerLifeData = {
   p: [
     `After spending a summer volunteering in Uganda during my junior year of college,
     I caught the "travel bug" and was hooked on international work for social good.  Immediately following my undergrad,
-    I went back to Uganda for a full year.  This was then followed by an additional year and
-    a half in Cali, Colombia while also remotely earning my Masters in International Relations and becoming bilingual.
-    After completing my post-grad degree, I lived in Sudan and South Sudan for 2 years, 2 years in KY and an additional 4 years in Washington, D.C.
+    I went back to Uganda for a full year.  I then spent 1.5 years in Cali, Colombia while also remotely earning my Masters in International Relations and becoming bilingual.
+    After completing my post-grad, I lived in Sudan and South Sudan for 2 years, 2 years in KY and an additional 4 years in Washington, D.C.
       before stumbling upon Charleston by chance. `,
     
       `Professionally during that decade of working with non-profits, I was always in some capacity designing data collection
@@ -19,16 +18,16 @@ const formerLifeData = {
       under the category of program and/or project evaluation.  In laymans terms, when non-profits wanted
       to win (or maintain) funding, I designed the data collection and analysis systems to help them better assess, understand and articulate their impact of
       social change in the community with evidence-based assertions.  I also helped funders evaluate whether these projects were indeed creating the
-      lasting and impactful social behavioural change for sustainable community improvement that they intended.`,
+       social behavioural change for sustainable community improvement that they intended.`,
       
-      `So why software development?  During that time I worked mostly in Advanced Excel, Tablue and PowerBI, but over the final years I started to progress to using 
+      `So why software development?  During that time I worked mostly in Advanced Excel, Tableau and PowerBI, but over the final years I started to progress to using 
       more technical statistical analysis packages like STATA and R
       programming.  It was during this transition to using more sophisticated statistical analysis tools that
       I started to discover my passion for programming. I remember saying repeatedly in D.C. and abroad
       how "I wished I could get on projects where all I did was work in STATA and R programming all day".  Then it finally hit me that it
       might be time for a serious career change.  After visitng a friend in Charleston and seeking out
       information about the JRS Coding School in Shem Creek, I made the easy, yet drastic pivot to change my
-      whole life.  Now 3 and a half years later I can honestly still say I've never once regretted the change and
+      whole life.  Now 3.5 years later I can honestly still say I've never once regretted the change and
       it's one of the best decisions I've ever made.  Software development is my perfect match and
           I'm grateful daily (well, when I'm not too stuck!) to have found this exciting career.`, `See below more detailed descriptions per each position where I worked before starting code camp, if curious.`
   ],
