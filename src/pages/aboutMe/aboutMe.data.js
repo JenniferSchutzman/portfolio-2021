@@ -20,9 +20,8 @@ const aboutMeData = {
 
     `Being the 2nd of 7 children, I'm a natural self-starter who
     enjoys leadership roles. I hold myself to a high standard, both with
-    my work quality and how I treat others. I also hold my
-    team and bosses to those same standards.  Due to these strong personal values, I only wish to work for teams that 
-    emphasize kindness, respect, quality, progressive code standards 
+    my work quality and how I treat others.  Due to these strong personal values, I only wish to work for teams that 
+    emphasize kindness, respect, quality, progressive code standards, 
     and peer-to-peer learning above all
     other things. Life is short so I intend to enjoy every year of
     this life surrounded by optimistic, enthusiastic, genuine people both inside

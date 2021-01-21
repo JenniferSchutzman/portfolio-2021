@@ -10,17 +10,17 @@ const formerLifeData = {
     `After spending a summer volunteering in Uganda during my junior year of college,
     I caught the "travel bug" and was hooked on international work for social good.  Immediately following my undergrad,
     I went back to Uganda for a full year.  I then spent 1.5 years in Cali, Colombia while also remotely earning my Masters in International Relations and becoming bilingual.
-    After completing my post-grad, I lived in Sudan and South Sudan for 2 years, 2 years in KY and an additional 4 years in Washington, D.C.
+    After completing my post-grad, I lived in Sudan and South Sudan for 2 years, 2 years in KY, and an additional 4 years in Washington, D.C.
       before stumbling upon Charleston by chance. `,
     
       `Professionally during that decade of working with non-profits, I was always in some capacity designing data collection
       and analysis systems for both qualitative and quantitative undertakings.  This work mostly took place
       under the category of program and/or project evaluation.  In laymans terms, when non-profits wanted
-      to win (or maintain) funding, I designed the data collection and analysis systems to help them better assess, understand and articulate their impact of
+      to win (or maintain) funding, I designed the data collection and analysis systems to help them better assess, understand, and articulate their impact of
       social change in the community with evidence-based assertions.  I also helped funders evaluate whether these projects were indeed creating the
        social behavioural change for sustainable community improvement that they intended.`,
       
-      `So why software development?  During that time I worked mostly in Advanced Excel, Tableau and PowerBI, but over the final years I started to progress to using 
+      `So why software development?  During that time I worked mostly in Advanced Excel, Tableau, and PowerBI, but over the final years I started to progress to using 
       more technical statistical analysis packages like STATA and R
       programming.  It was during this transition to using more sophisticated statistical analysis tools that
       I started to discover my passion for programming. I remember saying repeatedly in D.C. and abroad
@@ -35,8 +35,8 @@ const formerLifeData = {
       gridImage: ICRW,
       gridHeader: `Monitoring And Evaluation Data Specialist`,
       gridSubHeader: ` Washington D.C. based with international travel 25% - 75%`,
-      gridDescription: ['•	Leading technical guidance of data systems in 8 countries for world-renown private foundations, universities, governmental agencies, private research companies and corporations',
-            '•	Training international data handlers on research design, creation of data collection tools, data storage, database management and data analysis for research projects in Jordan, Ethiopia, India, Tanzania, Kenya, Uganda, South Africa and Guyana',
+      gridDescription: ['•	Leading technical guidance of data systems in 8 countries for world-renown private foundations, universities, governmental agencies, private research companies, and corporations',
+            '•	Training international data handlers on research design, creation of data collection tools, data storage, database management and data analysis for research projects in Jordan, Ethiopia, India, Tanzania, Kenya, Uganda, South Africa, and Guyana',
             '•	Facilitating 10-20-person workshops, focus group discussions, in-depth interviews, key informant interviews and survey collection in various countries'
       ],
       gridButtonOneLink:'https://www.icrw.org/',
@@ -69,7 +69,7 @@ const formerLifeData = {
   gridHeader: `Program Support Officer, Data Monitoring & Evaluations`,
   gridSubHeader: `Based in Juba, South Sudan while also overseeing projects in northern Sudan`,
   gridDescription: [`• Managed research design and data analysis for 10+ projects`,
-  `• Designed and trained local staff to implement effective data collection, analysis and reporting systems`,
+  `• Designed and trained local staff to implement effective data collection, analysis, and reporting systems`,
 ],
   gridButtonOneLink:`https://mcc.org/learn/what/relief/south-sudan`,
   gridButtonOneText: `MCC South Sudan`,

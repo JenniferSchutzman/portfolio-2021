@@ -4,7 +4,7 @@ import vizbii from '../../assets/images/vizbii.png'
 import fountain from '../../assets/images/fountain.jpeg'
 import reactHooks from '../../assets/images/reactHooks.png'
 import github from '../../assets/images/github.jpeg'
-import JRS from '../../assets/images/JRS.png'
+import JRSdog from '../../assets/images/JRSdog.jpeg'
 
 
 const myCodeData = {
@@ -18,10 +18,10 @@ const myCodeData = {
       other developers, we maintain the Tallo tech product from back
       to front for millions of users. Main highlights of my
       direct involvement include: worked with 2 other developers on the complete redesign of the
-      Tallo app profile functionality utilizing AngularJS, Java, MySQL
-      and LESS; personally created dozens of React components for the
+      Tallo app profile functionality utilizing AngularJS, Java, MySQL,
+      and LESS; personally created several of React components for the
       new UI kit; a lead in the transition to React Hooks; and
-      currently 1 of 2 developers converting the entire existing app from AngularJS
+      currently 1 of 2 developers converting the existing app from AngularJS
       to React.`],
       gridButtonOneLink:`https://app.tallo.com/register`,
       gridButtonOneText: ` Create a free Tallo account to see the app I work on`,
@@ -35,7 +35,7 @@ const myCodeData = {
       gridDescription: [` Before settling into a permanent position at Tallo, I did a
       couple of full-time consultancy projects for other local tech
       companies. Using
-      React, Redux and CSS, I drafted their new marketing website.
+      React, Redux, and CSS, I drafted their new marketing website.
       This was built in CSS without any helper style libraries or packages. It was too customized to allow for
       outside style frameworks or templates. Thus, this contract gave me the
       opportunitiy to drastically improve my CSS skills; launching me
@@ -51,10 +51,10 @@ const myCodeData = {
       gridDescription: [`My first contract after code camp was for another
       local company in downtown Charleston called Vizbii. There I
       built the front-end of the their new admin app, along with a
-      couple of other small apps. Utilizing AuthO, React, Redux, CSS and
+      couple of other small apps. Utilizing AuthO, React, Redux, CSS, and
       Axios, I was the sole front-end developer on the admin
       app. Personal highlights at this project include getting to
-      plug in Auth0, working with styled React components, developed my React skills with form management
+      plug in Auth0, working with styled React components, developed my React skills with form management,
       and numerous API calls. Unfortunately, the client admin app is not
       publicly accessible, but click below to learn more about this
       ground-breaking company. I believe the company now just goes by
@@ -78,7 +78,7 @@ const myCodeData = {
     {
       gridImage: github ,
       gridHeader: `My Github Page`,
-      gridSubHeader: ``,
+      gridSubHeader: `A little bit of everything`,
       gridDescription: [`While the majority of my code is proprietary, you can still see the regular activity and professional flow of commits.  This January will mark 3 years of full-time software development.`],
       gridButtonOneLink:`https://github.com/JenniferSchutzman`,
       gridButtonOneText: `Check out the repos on my github page`
@@ -91,23 +91,17 @@ const myCodeData = {
       building their own app from back to front utilizing
       CouchDB/PouchDB, React, and Redux. I also chose to use Material
       UI. In those last 2 weeks I worked completely by myself to
-      create this "Charleston Tour Finder App". I've recentely updated
-      the code using hooks. I also converted the DB to a fake api
-      because I've found CouchDB to be unreliable. Plus it's not
-      active so hooking it up to a new permanent DB did not seem
-      necessary. Feel free to pull it down and run it in mobile view
-      in your localhost inspect window. It will recommend specific
-      tours for you based off of your responses to a couple of
-      questions!`],
-      gridButtonOneLink:`https://github.com/JenniferSchutzman/tour-planner-clean`,
+      create this "Charleston Tour Finder App". I've currently updating
+      the code using hooks in another repo and would be happy to present the newer repo in person.`],
+      gridButtonOneLink:`https://github.com/JenniferSchutzman/CHS-Tour-Planner`,
       gridButtonOneText: `  View my code for the Charleston Tour Finder
       app demo`
     },
     {
-      gridImage: JRS ,
+      gridImage: JRSdog ,
       gridHeader: `JRS Code School`,
       gridSubHeader: `Full stack bootcamp`,
-      gridDescription: [`Under the leadership of Tom Wilson and Trip Ottinger, I attended the 3 month code bootcamp in Shem Creek.  In this full-stack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI and more!  Thank you guys for this amazing gift.`],
+      gridDescription: [`Under the leadership of Tom Wilson and Trip Ottinger, I attended the 3 month code bootcamp in Shem Creek.  In this full-stack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI, and more!  Thank you guys for this amazing gift.`],
       gridButtonOneLink:`https://www.harborec.com/jrs-coding-school`,
       gridButtonOneText: `  Learn more about the coding bootcamp`
     }
