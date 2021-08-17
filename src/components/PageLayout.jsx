@@ -3,11 +3,11 @@ import { Button, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import useStyles from "../assets/styling/pageLayout.styling.js";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "../assets/styling/theme.js";
-import useMediaQuery from '@material-ui/core/useMediaQuery'
+
 
 const PageLayout = (props) => {
   const classes = useStyles();
-  const matches = useMediaQuery(theme.breakpoints.up('sm'));
+
   return (
     <MuiThemeProvider theme={theme}>
       <Card>
