@@ -3,9 +3,11 @@ import { Button, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import useStyles from "../assets/styling/pageLayout.styling.js";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "../assets/styling/theme.js";
+import useMediaQuery from '@material-ui/core/useMediaQuery'
 
 const PageLayout = (props) => {
   const classes = useStyles();
+  const matches = useMediaQuery(theme.breakpoints.up('sm'));
   return (
     <MuiThemeProvider theme={theme}>
       <Card>
@@ -27,13 +29,20 @@ const PageLayout = (props) => {
             </CardContent>
           )}
         </div>
+        <div className={classes.styleLargeScreen}>
         {props.data.gridSection && (
           <CardContent className={classes.gridSection}>
-            <Grid container spacing={5} style={{    padding: "50px 100px"}}>
+            <Grid container spacing={5} style={{    padding: "0px 150px "}}>
               {props.data.gridSection.map((x) => {
                 return (
                   <>
-                    <Grid item xs={12} md={3} center>
+                   <Grid item xs={12} md={4} >   
+                    <h2>{x.gridHeader}</h2>
+                    </Grid>
+                    <Grid item xs={12} md={8} className={classes.subHeader}>
+                    <h5>{x.gridSubHeader}</h5>
+                      </Grid>
+                    <Grid item xs={12} md={4} center>
                       <img
                         className={classes.imageGridSection}
                         src={x.gridImage}
@@ -41,9 +50,8 @@ const PageLayout = (props) => {
                         style={{maxHeight: "800px"}}
                       />
                     </Grid>
-                    <Grid item xs={12} md={9} >
-                      <h2>{x.gridHeader}</h2>
-                      <h5>{x.gridSubHeader}</h5>
+              
+                    <Grid item xs={12} md={8}  style = {{marginTop: "-50px"}}>
                       <p
                         style={{
                           fontWeight: "600",
@@ -64,7 +72,7 @@ const PageLayout = (props) => {
                           rel="noreferrer"
                           style={{ textDecoration: "none" }}
                         >
-                          <Button variant="contained">
+                          <Button variant="contained" style={{width: "100%", fontWeight: "700"}}>
                             {x.gridButtonOneText}
                           </Button>
                         </a>
@@ -76,7 +84,7 @@ const PageLayout = (props) => {
                               rel="noreferrer"
                               style={{ textDecoration: "none" }}
                             >
-                              <Button variant="contained">
+                              <Button variant="contained" style={{width: "100%", fontWeight: "700"}}  >
                                 {x.gridButtonTwoText}
                               </Button>
                             </a>
@@ -84,12 +92,14 @@ const PageLayout = (props) => {
                         )}
                       </div>
                     </Grid>
+                   
                   </>
                 );
               })}
             </Grid>
           </CardContent>
         )}
+        </div>
       </Card>
     </MuiThemeProvider>
   );
