@@ -18,7 +18,7 @@ const NavBar = (props) => {
 
   React.useEffect(() => {
     history.location.pathname === "/" ? setShowHome(false) : setShowHome(true)
-  }, [])
+  }, [history.location.pathname])
   
 
   const goHome = () => {
