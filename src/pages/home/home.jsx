@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { ButtonBase, Grid } from "@material-ui/core";
+import { ButtonBase } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import useStyles from "./home.styles.js";
 import homeData from "./home.data.js";
@@ -10,12 +10,10 @@ import Footer from '../../components/Footer'
 const Home = () => {
   const classes = useStyles();
   const history = useHistory();
-
+  
   const goToPage = (data) => {
     history.push(data.route);
   };
-
-  console.log('history', history.location.pathname)
 
   const title = "Jenny Schutzman, Software Engineer";
   const subtitle =

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   AppBar,
   Button,
@@ -20,9 +20,6 @@ const NavBar = (props) => {
     history.location.pathname === "/" ? setShowHome(false) : setShowHome(true)
   })
   
-  const routeToPage = (url) => {
-    history.push(url);
-  };
 
   const goHome = () => {
     history.push('/')
