@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import useStyles from "./home.styles.js";
 import homeData from "./home.data.js";
 import NavBar from "../../components/NavBar.jsx";
+import Footer from '../../components/Footer'
 
 const Home = () => {
   const classes = useStyles();
@@ -14,16 +15,16 @@ const Home = () => {
     history.push(data.route);
   };
 
+  console.log('history', history.location.pathname)
+
   const title = "Jenny Schutzman, Software Engineer";
   const subtitle =
     "Javascript, React, Redux, Angular, Rest APIs, NodeJS, Express, Auth0, Fetch API, Axios, Isomorphic Fetch, useHttp, UI-Bootstrap, Material-UI Next, Semantic UI, i18Next, MySQL, Mongo DB, Pouch DB, Jest, React Testing Library, Mock Service Worker, Git/Github, html, css, atom, IntelliJ, VSCode and more.";
 
   return (
-    <div className={classes.root}>
-      <Grid item xs={12}>
+    <>
         <NavBar title={title} subtitle={subtitle} />
-      </Grid>
-      {homeData.map((data) => (
+        {homeData.map((data) => (
         <ButtonBase
           focusRipple
           key={data.title}
@@ -31,6 +32,7 @@ const Home = () => {
           focusVisibleClassName={classes.focusVisible}
           style={{
             width: data.width,
+            height: "600px"
           }}
           onClick={() => goToPage(data)}
         >
@@ -56,7 +58,8 @@ const Home = () => {
           </span>
         </ButtonBase>
       ))}
-    </div>
+  <Footer />
+  </>
   );
 };
 

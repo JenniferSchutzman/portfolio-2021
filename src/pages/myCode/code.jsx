@@ -2,6 +2,7 @@ import React from "react";
 import PageLayout from "../../components/PageLayout";
 import NavBar from "../../components/NavBar";
 import myCodeData from "./code.data.js";
+import Footer from '../../components/Footer'
 
 const MyCode = (props) => {
   return (
@@ -11,6 +12,7 @@ const MyCode = (props) => {
         subtitle="Professional and personal coding experience"
       />
       <PageLayout data={myCodeData} />
+      <Footer />
     </>
   );
 };

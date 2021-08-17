@@ -8,6 +8,15 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     textAlign: "center",
     flex: 1,
+    backgroundColor: "#999793",
+    color: "white",
+    span: {
+      fontSize: "26px",
+    }
+  },
+  menuModal: {
+    backgroundColor: "pink",
+    color: "orange",
   },
   container: {
     margin: "5%",

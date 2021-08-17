@@ -3,83 +3,38 @@ import {
   AppBar,
   Button,
   Grid,
-  Drawer,
-  List,
-  ListItem,
-  ListItemText,
 } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import menuDrawerData from "./menuDrawer.data.js";
-import CloseIcon from "@material-ui/icons/Close";
 import Typography from "@material-ui/core/Typography";
-import MenuIcon from "@material-ui/icons/Menu";
+import HomeIcon from '@material-ui/icons/Home';
 import assisi from "../assets/images/assisi.jpg";
 import useStyles from "../assets/styling/navBar.styling.js";
 import "fontsource-roboto";
 
 const NavBar = (props) => {
-  const [openMenu, setOpenMenu] = useState(false);
+  const [showHome, setShowHome] = React.useState(false)
   const history = useHistory();
   const classes = useStyles();
 
-  const toggleDrawer = (event) => {
-    if (
-      event &&
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-    setOpenMenu(!openMenu);
-  };
-
-  console.log("toggleDrawer", openMenu);
-
+  React.useEffect(() => {
+    history.location.pathname === "/" ? setShowHome(false) : setShowHome(true)
+  })
+  
   const routeToPage = (url) => {
     history.push(url);
   };
 
-  const list = (
-    <div
-      role="presentation"
-      onClick={(event) => toggleDrawer(event)}
-      onKeyDown={(event) => toggleDrawer(event)}
-      className={classes.root}
-      style={{ backgroundColor: "#00796b", color: "#FFFFFF" }}
-    >
-      <Button
-        onClick={(event) => toggleDrawer(event)}
-        className={classes.closeIcon}
-      >
-        <CloseIcon fontSize="large" style={{ color: "#ffffff" }} />
-      </Button>
-      <List>
-        {menuDrawerData.map((data) => (
-          <ListItem
-            button
-            key={data.listName}
-            onClick={() => routeToPage(data.url)}
-            className={classes.list}
-          >
-            <ListItemText
-              primary={data.listName}
-              style={{
-                fontFamily: "Source Sans Pro, Helvetica, sans-serif",
-                fontSize: "50px",
-              }}
-            ></ListItemText>
-          </ListItem>
-        ))}
-      </List>
-    </div>
-  );
+  const goHome = () => {
+    history.push('/')
+  }
+
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor: "#063970" }}>
         <img
           src={assisi}
           alt={assisi}
-          style={{ opacity: 0.2, width: "100%", height: "500px" }}
+          style={{ opacity: 0.2, width: "100%", height: "500px"}}
         />
         <Grid container className={classes.container}>
           <Grid item xs={12}>
@@ -109,27 +64,19 @@ const NavBar = (props) => {
           </Grid>
           <Grid item xs={0} sm={1}></Grid>
         </Grid>
-        <Button
+        {showHome && (<Button
           edge="start"
           className={classes.menuButton}
-          onClick={toggleDrawer}
+          onClick={()=> goHome()}
           color="inherit"
           aria-label="menu toggle"
         >
           <Typography variant="h5" style={{ paddingRight: "20px" }}>
-            Menu
+            Home 
           </Typography>
-          <MenuIcon fontSize="large" />
-        </Button>
-        {openMenu && (
-          <Drawer
-            anchor={"right"}
-            className={classes.menuModal}
-            open={openMenu}
-          >
-            {list}
-          </Drawer>
-        )}
+          <HomeIcon fontSize="large" />
+        </Button>)}
+        
       </AppBar>
     </div>
   );

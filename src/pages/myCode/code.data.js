@@ -68,7 +68,9 @@ const myCodeData = {
       gridImage: reactHooks,
       gridHeader: `Hooks Live Coding Instruction`,
       gridSubHeader: `2 different live coding presentations I've lead in the past year on Hooks`,
-      gridDescription: [`This past year I created a demo on React Hooks and presented it to the CTO and Senior Dev.  We soon after implementented Hooks into the react components we were building in the new UI kit.  You can follow along with my comments and examples inside the components directory.
+      gridDescription: [`I created a demo on React Hooks and presented it to the CTO and Senior Dev while working at Tallo.  
+      We soon after implementented Hooks into the react components we were building in the new UI kit.  
+      You can follow along with my comments and examples inside the components directory.
       `, `I also created a second more intermediate demo and presented it live on zoom to the Charleston Women Devs group in December of 2020. `],
       gridButtonOneLink:`https://github.com/JenniferSchutzman/hooks-practice`,
       gridButtonOneText: `Check out the basic intro to react hooks demo`,
@@ -91,9 +93,9 @@ const myCodeData = {
       building their own app from back to front utilizing
       CouchDB/PouchDB, React, and Redux. I also chose to use Material
       UI. In those last 2 weeks I worked completely by myself to
-      create this "Charleston Tour Finder App". I've currently updating
+      create this "Charleston Tour Finder App". I've recentely updated
       the code using hooks in another repo and would be happy to present the newer repo in person.`],
-      gridButtonOneLink:`https://github.com/JenniferSchutzman/CHS-Tour-Planner`,
+      gridButtonOneLink:`https://github.com/JenniferSchutzman/tourPlanner-reactHooks-reactRouter-jsonServer-only`,
       gridButtonOneText: `  View my code for the Charleston Tour Finder
       app demo`
     },

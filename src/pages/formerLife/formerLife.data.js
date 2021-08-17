@@ -25,7 +25,9 @@ const formerLifeData = {
       programming.  It was during this transition to using more sophisticated statistical analysis tools that
       I started to discover my passion for programming. I remember saying repeatedly in D.C. and abroad
       how "I wished I could get on projects where all I did was work in STATA and R programming all day".  Then it finally hit me that it
-      might be time for a serious career change.  After visitng a friend in Charleston and seeking out
+      might be time for a serious career change.`,  
+      
+      `After visitng a friend in Charleston and seeking out
       information about the JRS Coding School in Shem Creek, I made the easy, yet drastic pivot to change my
       whole life.  Now 3.5 years later I can honestly still say I've never once regretted the change and
       it's one of the best decisions I've ever made.  Software development is my perfect match and

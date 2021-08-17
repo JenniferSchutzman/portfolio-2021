@@ -8,13 +8,12 @@ const techCommunityData = {
       gridHeader: `Charleston Women Devs`,
       gridSubHeader: ``,
       gridDescription: [`Shortly after moving to Charleston in 2017, I began attending any and every tech meetup.  
-      Early on I noticed something odd; I had met so many people and yet not a single female software engineer. 
+      Early on I noticed something odd; I had met so many people and yet not a single female software developer. 
       In my former life of non-profit jobs where I worked in a female-dominated industry, I had always enjoyed growing 
       professionally alongside other like-minded driven women.  I craved that inspiring female comradery and after learning 
       that female software engineers make up approximately 15% of the development community, I felt encouraged to create the 
       Charleston Women Devs group to find some of these other women.`,
-      `Charleston Women Devs has been going strong since the summer of 2018 and to date we are still doing 2 meetups a month 
-      (1 online for technical topics and 1 outdoors for a happy hour during these COVID-19 days).  
+      `Charleston Women Devs has been going strong since the summer of 2018 and to date we are still doing monthly meetups; both social happy hours to network and technical presenation for skills-building.  
       It's been an unique and wonderful experience to create a casual group of female software engineers that would rarely 
       get to talk code with friends in our normal out-of-work settings.  
       It's now mostly a sisterhood of developers to lean on, share new technical concepts, seek our advice for professional growth and simply enjoy one another's company.`, `Also a special shoutout to our sponsor GrubHub...thank you!`

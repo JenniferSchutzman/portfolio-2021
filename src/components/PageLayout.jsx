@@ -19,13 +19,7 @@ const PageLayout = (props) => {
             <CardContent className={classes.card}>
               {props.data.p.map((p) => {
                 return (
-                  <p
-                    style={{
-                      color: "#FFFFFF",
-                      fontSize: "18px",
-                      fontFamily: "Source Sans Pro, Helvetica, sans-serif",
-                    }}
-                  >
+                  <p >
                     {p}
                   </p>
                 );
@@ -35,7 +29,7 @@ const PageLayout = (props) => {
         </div>
         {props.data.gridSection && (
           <CardContent className={classes.gridSection}>
-            <Grid container spacing={5}>
+            <Grid container spacing={5} style={{    padding: "50px 100px"}}>
               {props.data.gridSection.map((x) => {
                 return (
                   <>
@@ -44,16 +38,17 @@ const PageLayout = (props) => {
                         className={classes.imageGridSection}
                         src={x.gridImage}
                         alt={x.gridHeader}
+                        style={{maxHeight: "800px"}}
                       />
                     </Grid>
-                    <Grid item xs={12} md={9}>
+                    <Grid item xs={12} md={9} >
                       <h2>{x.gridHeader}</h2>
                       <h5>{x.gridSubHeader}</h5>
                       <p
                         style={{
                           fontWeight: "600",
                           fontSize: "18px",
-                          fontFamily: "Source Sans Pro, Helvetica, sans-serif",
+                          fontFamily: "Roboto, Helvetica, sans-serif",
                         }}
                       >
                         {x.gridDescription.map((bulletPoint) => {
@@ -69,7 +64,7 @@ const PageLayout = (props) => {
                           rel="noreferrer"
                           style={{ textDecoration: "none" }}
                         >
-                          <Button variant="contained" color="primary">
+                          <Button variant="contained">
                             {x.gridButtonOneText}
                           </Button>
                         </a>
@@ -81,7 +76,7 @@ const PageLayout = (props) => {
                               rel="noreferrer"
                               style={{ textDecoration: "none" }}
                             >
-                              <Button variant="contained" color="primary">
+                              <Button variant="contained">
                                 {x.gridButtonTwoText}
                               </Button>
                             </a>
