@@ -9,8 +9,7 @@ const aboutMeData = {
     bought our new family home in Mount Pleasant and we feel
     blessed daily to have found our own piece of heaven on earth.`,
 
-    `Both personally and professionaly, I'm the type of person who is
-    addicted to learning and trying new things. I'm constantly pushing
+    `Both personally and professionaly, I have an ardent interest in learning and trying new things. I'm constantly pushing
     my team to use the most progressive code standards, frameworks and libraries;
     partly because I think it's important and partly because if I'm
     not being challenged and learning every week of my life, then I'm

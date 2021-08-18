@@ -1,12 +1,13 @@
 import womenDevs from '../../assets/images/womenDevs.jpeg'
 import CWIT from '../../assets/images/CWIT.png'
 
+
 const techCommunityData = {
   gridSection: [
     {
       gridImage: womenDevs,
       gridHeader: `Charleston Women Devs`,
-      gridSubHeader: ``,
+      gridSubHeader: `Founder`,
       gridDescription: [`Shortly after moving to Charleston in 2017, I began attending any and every tech meetup.  
       Early on I noticed something odd; I had met so many people and yet not a single female software developer. 
       In my former life of non-profit jobs where I worked in a female-dominated industry, I had always enjoyed growing 
@@ -25,8 +26,8 @@ const techCommunityData = {
     },
     {
       gridImage: CWIT ,
-      gridHeader: `Charleston Women in Tech Mentorship Program`,
-      gridSubHeader: ``,
+      gridHeader: `CWIT Mentorship Program`,
+      gridSubHeader: `Program Manager`,
       gridDescription: [`In 2019, I had the pleasure of acting as the CHSWIT Mentorship Program Coordinator.
       The program had gone silent for a couple of years so I volunteered to take the lead and bring it back to life.
       Working alongside CHSWIT Board Members Nina Magnesson and Valerie Sessions, I paired over 100 women in tech with peer

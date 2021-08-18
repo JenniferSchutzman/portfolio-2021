@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   imageGridSection: {
      width: "100%",
     height: "250px",
-    marginTop: "-10px",
+    marginTop: "-20px",
     [theme.breakpoints.up('xl')]: {
       width: "500px",
       height: "250px",

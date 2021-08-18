@@ -2,6 +2,7 @@ import React from "react";
 import PageLayout from "../../components/PageLayout";
 import NavBar from "../../components/NavBar";
 import formerLifeData from "./formerLife.data.js";
+import Footer from '../../components/Footer'
 
 const FormerLife = (props) => {
   return (
@@ -11,6 +12,7 @@ const FormerLife = (props) => {
         subtitle="10+ Years Working with Non-Profit Data Systems"
       />
       <PageLayout data={formerLifeData} />
+      <Footer />
     </>
   );
 };
