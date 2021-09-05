@@ -5,23 +5,38 @@ import fountain from '../../assets/images/fountain.jpeg'
 import reactHooks from '../../assets/images/reactHooks.png'
 import github from '../../assets/images/github.jpeg'
 import JRSdog from '../../assets/images/JRSdog.jpeg'
+import Sov from '../../assets/images/sov.jpeg'
 
 
 const myCodeData = {
   gridSection: [
     {
+      gridImage: Sov,
+      gridHeader: `Sovereign`,
+      gridSubHeader: `Full-Stack Software Engineer since February 2021 to current in downtown Charleston, SC`,
+      gridDescription: [`I am currently Full-Stack Software Engineer at
+      Sovereign. In April we launched out new project BusinessLoans.com and I'm currently working on RateQuote.com; 
+      utilizing React, NextJS, Node, Tailwind, MaterialUi, Segment, Sanity and more.  My involvment with BusinessLoans.com 
+      was largely related to API communication from the front-end to other servers.  With RateQuote I've mostly been working on front-end functionality and design.  
+    `],
+      gridButtonOneLink:`https://businessloans.com`,
+      gridButtonOneText: ` Business Loans`,
+      gridButtonTwoLink: `https://ratequote.com`,
+      gridButtonTwoText: `Rate Quote`
+    },
+    {
       gridImage: tallo,
       gridHeader: `Tallo`,
-      gridSubHeader: `Full-Stack Software Engineer since October 2018 to current in Mount Pleasant, SC`,
-      gridDescription: [`For the past 2 and a half years, I've been a Full-Stack Software Engineer at
+      gridSubHeader: `Full-Stack Software Engineer since October 2018 to February 2021 in Mount Pleasant, SC`,
+      gridDescription: [`For 2 and a half years, I was a Full-Stack Software Engineer at
       the Mount Pleasant based tech company Tallo. On a team with 5
-      other developers, we maintain the Tallo tech product from back
+      other developers, we maintained the Tallo tech product from back
       to front for millions of users. Main highlights of my
-      direct involvement include: worked with 2 other developers on the complete redesign of the
+      direct involvement included: worked with 2 other developers on the complete redesign of the
       Tallo app profile functionality utilizing AngularJS, Java, MySQL,
       and LESS; personally created several of React components for the
       new UI kit; a lead in the transition to React Hooks; and
-      currently 1 of 2 developers converting the existing app from AngularJS
+      was 1 of 2 developers converting the existing app from AngularJS
       to React.`],
       gridButtonOneLink:`https://app.tallo.com/register`,
       gridButtonOneText: ` Create a free Tallo account to see the app I work on`,
@@ -39,7 +54,7 @@ const myCodeData = {
       This was built in CSS without any helper style libraries or packages. It was too customized to allow for
       outside style frameworks or templates. Thus, this contract gave me the
       opportunitiy to drastically improve my CSS skills; launching me
-      into a new level of design code understanding and appreciation
+      into a new level of design code understanding and an appreciation
       for further front-end expertise. Click below to check it out.`],
       gridButtonOneLink:`https://ridegotcha.com/`,
       gridButtonOneText: `View the marketing website I built`
@@ -102,7 +117,7 @@ const myCodeData = {
     {
       gridImage: JRSdog ,
       gridHeader: `JRS Code School`,
-      gridSubHeader: `Full stack bootcamp`,
+      gridSubHeader: `Full-stack bootcamp`,
       gridDescription: [`Under the leadership of Tom Wilson and Trip Ottinger, I attended the 3 month code bootcamp in Shem Creek.  In this full-stack bootcamp we dove into Javascript, NodeJS (with full CRUD), React, Redux, MySQL, PouchDB/CouchDB, Material UI, and more!  Thank you guys for this amazing gift.`],
       gridButtonOneLink:`https://www.harborec.com/jrs-coding-school`,
       gridButtonOneText: `  Learn more about the coding bootcamp`
