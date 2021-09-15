@@ -17,8 +17,9 @@ const PageLayout = (props) => {
             alt={props.data.img}
             className={classes.image}
           />
-            <Hidden only={["xs","sm"]}>
+    
           {props.data.p && (
+          <Hidden only={["xs","sm"]}>
             <CardContent className={classes.card}>
               {props.data.p.map((p) => {
                 return (
@@ -28,8 +29,9 @@ const PageLayout = (props) => {
                 );
               })}
             </CardContent>
+            </Hidden>
           )}
-          </Hidden>
+        
         </div>
         <div className={classes.styleLargeScreen}>
         {props.data.gridSection && (
