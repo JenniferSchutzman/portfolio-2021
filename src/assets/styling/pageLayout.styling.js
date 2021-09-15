@@ -43,12 +43,13 @@ const useStyles = makeStyles((theme) => ({
   secondButton: {
     marginTop: "20px"
   },
-  // gridSection: {
-  //   padding: "50px 0 0 0",
-  // },
-
   subHeader: {
-    textAlign: "right"
+    [theme.breakpoints.up('sm')]:{
+      textAlign: "right"
+    },
+    [theme.breakpoints.down('sm')]:{
+      margin: "-50px 0px -10px 0px"
+    } 
   }
 }));
 

@@ -53,7 +53,13 @@ const PageLayout = (props) => {
                     </Grid>
               
                     <Grid item xs={12} md={8}  style = {{marginTop: "-50px"}}>
-                      <p>
+                      <p
+                        style={{
+                          fontWeight: "600",
+                          fontSize: "18px",
+                          fontFamily: "Roboto, Helvetica, sans-serif",
+                        }}
+                      >
                         {x.gridDescription.map((bulletPoint) => {
                           return (
                             <Typography paragraph>{bulletPoint}</Typography>
