@@ -4,7 +4,7 @@ import wedding from '../../assets/images/wedding.jpg';
 const aboutMeData = {
   img: wedding,
   p: [
-    `Shortly after moving to Mount Pleasant 3 and a half years ago, I met my husband
+    `Shortly after moving to Mount Pleasant 4 years ago, I met my husband
     to be and knew that I'd never want to leave. We just recently
     bought our new family home in Mount Pleasant and we feel
     blessed daily to have found our own piece of heaven on earth.`,
