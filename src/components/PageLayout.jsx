@@ -32,7 +32,7 @@ const PageLayout = (props) => {
         <div className={classes.styleLargeScreen}>
         {props.data.gridSection && (
           <CardContent className={classes.gridSection}>
-            <Grid container spacing={5} >
+            <Grid container spacing={7} >
 
               {props.data.gridSection.map((x) => {
                 return (

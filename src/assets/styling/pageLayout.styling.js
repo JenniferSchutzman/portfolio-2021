@@ -6,11 +6,11 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: "50px",
     backgroundColor: "#eeeee4",
     color: "black",
-    marginTop: "-20px"
+    // marginTop: "-20px"
   },
   card: {
     fontSize: "18px",
-    [theme.breakpoints.up('md')]: {
+    [theme.breakpoints.up('sm')]: {
       padding: "50px 150px",
     },
     padding: "20px",
@@ -22,11 +22,24 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   gridPadding: {
-    [theme.breakpoints.up('sm')]: {
+    [theme.breakpoints.up('xs')]: {
       padding: "0px 150px "
     },
     padding: "20px",
   
+  },
+  gridSection: {
+    [theme.breakpoints.up('md')]:{
+      margin: "100px 200px"
+    },
+    [theme.breakpoints.up('lg')]:{
+      margin: "200px 300px"
+    },
+    // [theme.breakpoints.up('xs')]:{
+    //   margin: "10px"
+    // },
+    margin: "5px"
+
   },
   imageGridSection: {
      width: "100%",
@@ -48,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
       textAlign: "right"
     },
     [theme.breakpoints.down('sm')]:{
-      margin: "-50px 0px -10px 0px"
+      margin: "-50px 0px 10px 0px"
     } 
   }
 }));
