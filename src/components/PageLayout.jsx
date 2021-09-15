@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, CardContent, Grid, Typography } from "@material-ui/core";
+import { Button, Card, CardContent, Grid, Hidden, Typography } from "@material-ui/core";
 import useStyles from "../assets/styling/pageLayout.styling.js";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "../assets/styling/theme.js";
@@ -17,6 +17,7 @@ const PageLayout = (props) => {
             alt={props.data.img}
             className={classes.image}
           />
+            <Hidden only={["xs","sm"]}>
           {props.data.p && (
             <CardContent className={classes.card}>
               {props.data.p.map((p) => {
@@ -28,12 +29,12 @@ const PageLayout = (props) => {
               })}
             </CardContent>
           )}
+          </Hidden>
         </div>
         <div className={classes.styleLargeScreen}>
         {props.data.gridSection && (
           <CardContent className={classes.gridSection}>
             <Grid container spacing={7} >
-
               {props.data.gridSection.map((x) => {
                 return (
                   <>

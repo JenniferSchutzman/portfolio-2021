@@ -12,6 +12,11 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "18px",
     [theme.breakpoints.up('sm')]: {
       padding: "50px 150px",
+  
+    },
+    [theme.breakpoints.up('lg')]:{
+      fontSize: "24px",
+      lineHeight: "40px",
     },
     padding: "20px",
     lineHeight: "30px",
@@ -33,7 +38,8 @@ const useStyles = makeStyles((theme) => ({
       margin: "100px 200px"
     },
     [theme.breakpoints.up('lg')]:{
-      margin: "200px 300px"
+      margin: "200px 300px",
+      fontSize: "24px"
     },
     // [theme.breakpoints.up('xs')]:{
     //   margin: "10px"
