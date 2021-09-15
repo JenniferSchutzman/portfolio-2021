@@ -32,7 +32,8 @@ const PageLayout = (props) => {
         <div className={classes.styleLargeScreen}>
         {props.data.gridSection && (
           <CardContent className={classes.gridSection}>
-            <Grid container spacing={5} style={{    padding: "0px 150px "}}>
+            <Grid container spacing={5} >
+
               {props.data.gridSection.map((x) => {
                 return (
                   <>
@@ -52,13 +53,7 @@ const PageLayout = (props) => {
                     </Grid>
               
                     <Grid item xs={12} md={8}  style = {{marginTop: "-50px"}}>
-                      <p
-                        style={{
-                          fontWeight: "600",
-                          fontSize: "18px",
-                          fontFamily: "Roboto, Helvetica, sans-serif",
-                        }}
-                      >
+                      <p>
                         {x.gridDescription.map((bulletPoint) => {
                           return (
                             <Typography paragraph>{bulletPoint}</Typography>

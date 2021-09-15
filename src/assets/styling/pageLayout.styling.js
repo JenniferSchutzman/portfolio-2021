@@ -10,13 +10,23 @@ const useStyles = makeStyles((theme) => ({
   },
   card: {
     fontSize: "18px",
-    padding: "50px 150px",
+    [theme.breakpoints.up('md')]: {
+      padding: "50px 150px",
+    },
+    padding: "20px",
     lineHeight: "30px",
     fontFamily: "Roboto, sans-serif",
   }
   ,
   button: {
     width: "100%",
+  },
+  gridPadding: {
+    [theme.breakpoints.up('sm')]: {
+      padding: "0px 150px "
+    },
+    padding: "20px",
+  
   },
   imageGridSection: {
      width: "100%",
@@ -26,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
       width: "500px",
       height: "250px",
     }
-    
   },
   image: {
     width: "100%"
@@ -34,9 +43,10 @@ const useStyles = makeStyles((theme) => ({
   secondButton: {
     marginTop: "20px"
   },
-  gridSection: {
-    padding: "50px 0 0 0",
-  },
+  // gridSection: {
+  //   padding: "50px 0 0 0",
+  // },
+
   subHeader: {
     textAlign: "right"
   }
