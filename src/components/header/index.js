@@ -118,7 +118,7 @@ const Header = () => {
                             <div className="flex text-green-500">Jenny Schutzman</div>
                         </h1>
                         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+                            JAVASCRIPT, REACT, REDUX, ANGULAR, REST APIS, NODEJS, EXPRESS, AUTH0, FETCH API, AXIOS, ISOMORPHIC FETCH, USEHTTP, UI-BOOTSTRAP, MATERIAL-UI NEXT, SEMANTIC UI, I18NEXT, MYSQL, MONGO DB, POUCH DB, JEST, REACT TESTING LIBRARY, MOCK SERVICE WORKER, GIT/GITHUB, HTML, CSS, ATOM, INTELLIJ, VSCODE AND MORE.
                         </p>
                         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                             {/* <div className="rounded-md shadow">
@@ -134,6 +134,10 @@ const Header = () => {
                         </div>
                     </div>
                 </main>
+
+
+
+
             </div>
         </div>
     )
