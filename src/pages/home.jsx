@@ -1,12 +1,13 @@
 import React from 'react'
-import Header from 
+import Header from '../components/header'
 
 const Home = () => {
-
     return (
-        <Header 
-        title="Jenny Schutzman, Front-end Software Engineer"
-        subheader="languages here"
-        />
+        <>
+                <Header />
+        </>
+
     )
 }
+
+export default Home;
