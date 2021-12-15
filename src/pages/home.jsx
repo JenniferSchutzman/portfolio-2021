@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from '../components/header'
-import Cards from '../components/cards'
+import Footer from '../components/footer'
+import IconGrid from '../components/icon-grid'
+
+
 
 const Home = () => {
     return (
         <>
-                <Header />
-                <Cards />
+            <Header />
+            <IconGrid />
+            <Footer />
         </>
-
     )
 }
 
