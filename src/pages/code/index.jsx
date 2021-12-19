@@ -4,7 +4,6 @@ import HeaderSecondary from '../../components/header-secondary'
 import Cards from '../../components/cards'
 import Footer from '../../components/footer'
 
-
 import { cardData } from './code-data'
 
 

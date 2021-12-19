@@ -7,10 +7,8 @@ const HeaderSecondary = (props) => {
         <div className="bg-white">
             <main>
                 <div>
-                    {/* <!-- NEED A NAVBAR HERE --> */}
-
                     <div className="relative">
-                        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+                        <div className="absolute inset-x-0 bottom-0 h-1/2"></div>
                         <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                                 <div className="absolute inset-0">
@@ -31,8 +29,6 @@ const HeaderSecondary = (props) => {
                         </div>
                     </div>
                 </div>
-
-                {/* <!-- More main page content here... --> */}
             </main>
         </div>
     )

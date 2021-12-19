@@ -7,8 +7,8 @@ export const cardData = [
         category: "Fullstack Software Engineer",
         title: "RateQuote",
         description: "Playing a significant role in the rewrite of the entire site in React and Tailwind.  This newly improved component library will allow the company to scale rapidly across more sectors in the next 2 years, all using the same site and code base",
-        linkTitle: "",
-        link: ""
+        linkTitle: "Check out site",
+        link: `https://ratequote.com`
     },
     {
         id: 2,
@@ -16,8 +16,8 @@ export const cardData = [
         category: "Fullstack Software Engineer",
         title: "BusinessLoans",
         description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more.  I personally handled the creation of numerous api calls to over a different servers during my few months on this project.",
-        linkTitle: "",
-        link: ""
+        linkTitle: "Check out site",
+        link: `https://businessloans.com`
     },
     {
         id: 3,
@@ -25,8 +25,8 @@ export const cardData = [
         category: "Frontend Software Engineer",
         title: "Tallo",
         description: "Over the 2.5 years with this company I played a cruciual role in the rewrite of the entire codecase from AngularJS to React.  Working in this large code base gave me awareness of the complexities of working in countless routes, states, and api calls.",
-        linkTitle: "",
-        link: ""
+        linkTitle: "See Component Libary",
+        link: `https://github.com/STEMPremier/celula`
     },
     {
         id: 4,
@@ -34,26 +34,26 @@ export const cardData = [
         category: "Frontend Software Engineer",
         title: "Gotcha",
         description: "As a temporary full-time contractor with this company I worked alone to create their marketing website using custom CSS without any style libraries and React for the site functionality",
-        linkTitle: "",
-        link: ""
+        linkTitle: "See end product",
+        link: `https://ridegotcha.com/`
     },
     {
         id: 5,
         img: "/images/vizbiiwide.jpeg",
         category: "Frontend Software Engineer",
         title: "Vizbii",
-        description: "I will put a description of RateQuote here and the work I do",
-        linkTitle: "",
-        link: ""
+        description: "Utilizing Auth0, React, Redux, CSS and Axios, I was the sole frontend developer on the admin app",
+        linkTitle: "Learn about Vizbii",
+        link: `https://morphii.com/`
     },
     {
         id: 6,
         img: "/images/JRSdog.jpeg",
         category: "Frontend Software Engineer",
         title: "JRS Code School",
-        description: "I will put a description of RateQuote here and the work I do",
-        linkTitle: "",
-        link: ""
+        description: "Attended the 3 month code bootcamp learning Javascript, React, Redux, MySQL, CounchDB/PouchDb, Node.  At the end I spent the last 2 weeks working alone from beginning to end on this Charleston Tour Finder app.  Originally written in Node, with CouchDB and Redux, I've since converted it to JSON-server and hooks",
+        linkTitle: "App code",
+        link: 'https://github.com/JenniferSchutzman/tourPlanner-reactHooks-reactRouter-jsonServer-only'
     },
     {
         id: 7,
@@ -61,8 +61,8 @@ export const cardData = [
         category: "Lots of Different Things",
         title: "Github",
         description: "I will put a description of RateQuote here and the work I do",
-        linkTitle: "",
-        link: ""
+        linkTitle: "Numerous repos",
+        link: `https://github.com/JenniferSchutzman`
     },
     {
         id: 8,
@@ -70,8 +70,8 @@ export const cardData = [
         category: "Live Teaching Demo",
         title: "Presentation for the Charleston Women Devs group",
         description: "I will put a description of RateQuote here and the work I do",
-        linkTitle: "",
-        link: ""
+        linkTitle: "Live coding presentation",
+        link: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`
     },
     {
         id: 9,
