@@ -77,7 +77,10 @@ const HeaderPrimary = () => {
                                     {showHome && (<a href="/" className="font-medium text-gray-500 hover:text-gray-900">Home</a>)}
                                     {navItems.map(item => {
                                         return (
-                                            <a href={item.href} className="font-medium text-gray-500 hover:text-gray-900">{item.name}</a>
+                                            <Link to={item.href}>
+                                                <span className="font-medium text-gray-500 hover:text-gray-900">{item.name}</span>
+                                            </Link>
+
                                         )
                                     })}
                                 </div>

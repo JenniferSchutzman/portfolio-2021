@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 
 
 const navItems = [
@@ -51,7 +51,9 @@ const Navbar = () => {
                                     <div className="px-2 pt-2 pb-3 space-y-1 min-h-full">
                                         {navItems.map(item => {
                                             return (
-                                                <a href={item.href} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">{item.name}</a>
+                                                <Link to={item.href}>
+                                                    <span className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">{item.name}</span>
+                                                </Link>
                                             )
                                         })}
                                     </div>
@@ -77,7 +79,10 @@ const Navbar = () => {
                                     {showHome && (<a href="/" className="font-medium text-gray-500 hover:text-gray-900">Home</a>)}
                                     {navItems.map(item => {
                                         return (
-                                            <a href={item.href} className="font-medium text-gray-500 hover:text-gray-900">{item.name}</a>
+                                            <Link to={item.href} >
+                                                <span lassName="font-medium text-gray-500 hover:text-gray-900">{item.name}</span>
+                                            </Link>
+
                                         )
                                     })}
                                 </div>
