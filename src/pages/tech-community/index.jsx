@@ -7,8 +7,8 @@ import Cards from '../../components/cards'
 import { cardData } from './tech-com-data'
 
 const TechCommunity= () => {
-    const headerDescription = ""
-    const cardDescription = ""
+    const headerDescription = "Since the very beginning I've been trying to soak it all up like a sponge in every direction.  Whether it's conferences, trainings, meetups or happy hours, I'm always looking for new inspiration and teachers."
+    const cardDescription = "More than a 'nine-to-five' kind of life"
 
     return (
         <>
@@ -19,7 +19,7 @@ const TechCommunity= () => {
             description={headerDescription}
             img="/images/assisi.jpg"
         />
-        <Cards title="Delta Platinum Life" description={cardDescription} cardData={cardData} />
+        <Cards title="Living and breathing tech" description={cardDescription} cardData={cardData} />
         <Footer />
         </>
     )

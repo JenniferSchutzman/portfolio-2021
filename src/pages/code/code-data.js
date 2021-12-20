@@ -12,7 +12,7 @@ export const cardData = [
     },
     {
         id: 2,
-        img: "/images/businessloans.png",
+        img: "/images/b.png",
         category: "Fullstack Software Engineer",
         title: "BusinessLoans",
         description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more.  I personally handled the creation of numerous api calls to over a different servers during my few months on this project.",
@@ -60,7 +60,7 @@ export const cardData = [
         img: "/images/github.jpeg",
         category: "Lots of Different Things",
         title: "Github",
-        description: "I will put a description of RateQuote here and the work I do",
+        description: "Naturally most of my professional code is proprietary and not visible (or not on Github) but you will see that I am obsessed with learning and always playing around in new repos on here.",
         linkTitle: "Numerous repos",
         link: `https://github.com/JenniferSchutzman`
     },
@@ -69,7 +69,7 @@ export const cardData = [
         img: "/images/womenDevs.jpeg",
         category: "Live Teaching Demo",
         title: "Presentation for the Charleston Women Devs group",
-        description: "I will put a description of RateQuote here and the work I do",
+        description: "I've taught a number of different presentation on different React Hooks over the past couple of years.  Here is one example.",
         linkTitle: "Live coding presentation",
         link: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`
     },
@@ -78,8 +78,8 @@ export const cardData = [
         img: "/images/nucamp.png",
         category: "Live Teaching Demo",
         title: "React Instructor on Saturdays",
-        description: "I will put a description of RateQuote here and the work I do",
-        linkTitle: "",
-        link: ""
+        description: "Each Saturday morning I teach React online to adult bootcamp beginners. These bootcamp programs truly change lives for the better and it is an exciting process to introduce them to React for the very first time.",
+        linkTitle: "Learn More",
+        link: "https://nucamp.co"
     }
 ]
