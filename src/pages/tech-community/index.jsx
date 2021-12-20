@@ -7,7 +7,7 @@ import Cards from '../../components/cards'
 import { cardData } from './tech-com-data'
 
 const TechCommunity= () => {
-    const headerDescription = "Since the very beginning I've been trying to soak it all up like a sponge in every direction.  Whether it's conferences, trainings, meetups or happy hours, I'm always looking for new inspiration and teachers."
+    const headerDescription = "Since the very beginning I've been trying to absorb the knowledge from every direction.  Whether it's conferences, trainings, meetups or happy hours, I'm always looking for new inspiration and teachers."
     const cardDescription = "More than a 'nine-to-five' kind of life"
 
     return (
