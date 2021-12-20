@@ -15,7 +15,7 @@ const TechCommunity= () => {
         <Navbar />
         <HeaderSecondary 
             title="Code Immersion"
-            subtitle="is not one man behind a screen"
+            subtitle="for me, is not one person at a monitor"
             description={headerDescription}
             img="/images/assisi.jpg"
         />

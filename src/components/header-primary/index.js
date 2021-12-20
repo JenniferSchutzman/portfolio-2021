@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 
 
 
@@ -40,7 +40,7 @@ const HeaderPrimary = () => {
                                             <img className="h-8 w-auto" src="/images/logo.svg" alt="" />
                                         </div>
                                         <div className="-mr-4">
-                                            <button type="button" onClick={() => setMobileModal(false)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                            <button type="button" onClick={() => setMobileModal(false)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
                                                 <span className="sr-only">Close main menu</span>
                                                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -64,7 +64,7 @@ const HeaderPrimary = () => {
                                     <div className="flex items-center justify-between w-full md:w-auto">
                                         <img className="h-8 w-auto sm:h-10" src="/images/logo.svg" alt="React logo" />
                                         <div className="-mr-2 flex items-center md:hidden">
-                                            <button type="button" onClick={() => setMobileModal(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                                            <button type="button" onClick={() => setMobileModal(true)} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500" aria-expanded="false">
                                                 <span className="sr-only">Open main menu</span>
                                                 <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -98,9 +98,12 @@ const HeaderPrimary = () => {
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
-                                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                                        Checkout My Code
-                                    </a>
+                                    <Link to="/code">
+                                        <button className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-700 md:py-4 md:text-lg md:px-10">
+                                            Checkout My Code
+                                        </button>
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
