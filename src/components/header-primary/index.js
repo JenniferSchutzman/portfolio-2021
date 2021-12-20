@@ -9,7 +9,7 @@ const navItems = [
         name: "Code",
     },
     {
-        href: "tech-community",
+        href: "/tech-community",
         name: "Tech Community",
     },
     {
