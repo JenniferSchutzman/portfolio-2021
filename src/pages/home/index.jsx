@@ -12,12 +12,12 @@ const Home = () => {
     {
         icon: '',
         name: 'The Whole Product',
-        description: 'Juggling both meetings and private code time excites me because my motivation comes from understanding what the produt is trying to do and how to create the most user-friendly experience.  To me, code vision is inspired through creative converations and bouncing around ideas; then applied one line of code at a time.'
+        description: 'Juggling both meetings and private code time excites me because my motivation comes from understanding what the product is trying to do and how to create the most user-friendly experience.  To me, code vision is inspired through creative conversations and bouncing around ideas; then applied one line of code at a time.'
     },
     {
         icon: '',
         name: 'Team First',
-        description: `Efficiency and constant growth demand cohesive communicative teams. I want to soak in all if my teammembers knowledge and keep all of the engine's parts working smoothly while we create a masterpiece (or at least something clean, DRY, and somewhat bug-free!) together.`
+        description: `Efficiency and constant growth demand cohesive communicative teams. I want to soak in all of my teammembers' knowledge and keep all of the engine parts working smoothly while we create a masterpiece (or at least something clean, DRY, and somewhat bug-free!) together.`
     }
 ]
     return (

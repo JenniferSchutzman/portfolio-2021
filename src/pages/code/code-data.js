@@ -15,7 +15,7 @@ export const cardData = [
         img: "/images/b.png",
         category: "Fullstack Software Engineer",
         title: "BusinessLoans",
-        description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more.  I personally handled the creation of numerous api calls to over a different servers during my few months on this project.",
+        description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more we rapidly produced this product for release last Spring.  I personally handled the creation of numerous api calls to over a different servers during my few months on this project.",
         linkTitle: "Check out site",
         link: `https://businessloans.com`
     },
@@ -24,7 +24,7 @@ export const cardData = [
         img: "/images/tallowide.png",
         category: "Frontend Software Engineer",
         title: "Tallo",
-        description: "Over the 2.5 years with this company I played a cruciual role in the rewrite of the entire codecase from AngularJS to React.  Working in this large code base gave me awareness of the complexities of working in countless routes, states, and api calls.",
+        description: "Over the 2.5 years with this company, I played a cruciual role in the rewrite of the entire codecase from AngularJS to React.  Working in this large code base gave me awareness of the complexities of working in countless routes, states, and api calls.",
         linkTitle: "See Component Libary",
         link: `https://github.com/STEMPremier/celula`
     },
@@ -33,7 +33,7 @@ export const cardData = [
         img: "/images/gotcha.png",
         category: "Frontend Software Engineer",
         title: "Gotcha",
-        description: "As a temporary full-time contractor with this company I worked alone to create their marketing website using custom CSS without any style libraries and React for the site functionality",
+        description: "As a temporary full-time contractor with this company, I worked alone to create their marketing website using custom CSS without any style libraries.  I utilized React for the site functionality.",
         linkTitle: "See end product",
         link: `https://ridegotcha.com/`
     },
@@ -42,7 +42,7 @@ export const cardData = [
         img: "/images/vizbiiwide.jpeg",
         category: "Frontend Software Engineer",
         title: "Vizbii",
-        description: "Utilizing Auth0, React, Redux, CSS and Axios, I was the sole frontend developer on the admin app",
+        description: "Utilizing Auth0, React, Redux, CSS and Axios, I was the sole frontend developer on the admin app.",
         linkTitle: "Learn about Vizbii",
         link: `https://morphii.com/`
     },
@@ -51,7 +51,7 @@ export const cardData = [
         img: "/images/JRSdog.jpeg",
         category: "Frontend Software Engineer",
         title: "JRS Code School",
-        description: "Attended the 3 month code bootcamp learning Javascript, React, Redux, MySQL, CounchDB/PouchDb, Node.  At the end I spent the last 2 weeks working alone from beginning to end on this Charleston Tour Finder app.  Originally written in Node, with CouchDB and Redux, I've since converted it to JSON-server and hooks",
+        description: "Attended the 3 month code bootcamp learning Javascript, React, Redux, MySQL, CounchDB/PouchDb, Node.  At the end I spent the last 2 weeks working alone from beginning to end on this Charleston Tour Finder app.  Originally written in Node, with CouchDB and Redux, I've since converted it to JSON-server and hooks.",
         linkTitle: "App code",
         link: 'https://github.com/JenniferSchutzman/tourPlanner-reactHooks-reactRouter-jsonServer-only'
     },
@@ -60,7 +60,7 @@ export const cardData = [
         img: "/images/github.jpeg",
         category: "Lots of Different Things",
         title: "Github",
-        description: "Naturally most of my professional code is proprietary and not visible (or not on Github) but you will see that I am obsessed with learning and always playing around in new repos on here.",
+        description: "Most of my professional code is proprietary and not visible (or not on Github) but you will see that I am obsessed with learning and always playing around in new repos on here.",
         linkTitle: "Numerous repos",
         link: `https://github.com/JenniferSchutzman`
     },
@@ -69,7 +69,7 @@ export const cardData = [
         img: "/images/womenDevs.jpeg",
         category: "Live Teaching Demo",
         title: "Presentation for the Charleston Women Devs group",
-        description: "I've taught a number of different presentation on different React Hooks over the past couple of years.  Here is one example.",
+        description: "I've taught a number of different presentations on different React Hooks over the past couple of years.  Here is one example.",
         linkTitle: "Live coding presentation",
         link: `https://github.com/JenniferSchutzman/live-coding-demo-to-share`
     },
