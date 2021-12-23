@@ -75,14 +75,13 @@ const Navbar = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8  ">
-                                    {showHome && (<a href="/" className="font-medium text-gray-500 hover:text-gray-900">Home</a>)}
+                                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                                    {showHome && (<Link to="/" ><span className="font-medium text-gray-500 hover:text-gray-900">Home</span></Link>)}
                                     {navItems.map(item => {
                                         return (
                                             <Link to={item.href} >
-                                                <span lassName="font-medium text-gray-500 hover:text-gray-900">{item.name}</span>
+                                                <span className="font-medium text-gray-500 hover:text-gray-900">{item.name}</span>
                                             </Link>
-
                                         )
                                     })}
                                 </div>
