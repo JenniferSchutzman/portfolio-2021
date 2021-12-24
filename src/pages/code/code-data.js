@@ -6,7 +6,7 @@ export const cardData = [
         img: "/images/ratequote.jpeg",
         category: "Fullstack Software Engineer",
         title: "RateQuote",
-        description: "Playing a significant role in the rewrite of the entire site in React and Tailwind.  This newly improved component library will allow the company to scale rapidly across more sectors in the next 2 years, all using the same site and code base",
+        description: "Playing a significant role in the rewrite of the entire site in React and Tailwind.  This newly improved component library will allow the company to scale rapidly across more sectors in the next 2 years, all using the same site and code base.",
         linkTitle: "Check out site",
         link: `https://ratequote.com`
     },
@@ -15,7 +15,7 @@ export const cardData = [
         img: "/images/b.png",
         category: "Fullstack Software Engineer",
         title: "BusinessLoans",
-        description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more we rapidly produced this product for release last Spring.  I personally handled the creation of numerous api calls to over a different servers during my few months on this project.",
+        description: "Utlizing NextJS, React, Node, Tailwind, Segment, Sanity and more, we rapidly produced this product for release last Spring.  I personally handled the creation of numerous api calls to over a dozen different servers during my few months on this project.",
         linkTitle: "Check out site",
         link: `https://businessloans.com`
     },
@@ -78,7 +78,7 @@ export const cardData = [
         img: "/images/nucamp.png",
         category: "Live Teaching Demo",
         title: "React Instructor on Saturdays",
-        description: "Each Saturday morning I teach React online to adult bootcamp beginners. These bootcamp programs truly change lives for the better and it is an exciting process to introduce them to React for the very first time.",
+        description: "Each Saturday morning I teach a 4 hour React workshop online to adult bootcamp beginners. These bootcamp programs truly change lives for the better and it is an exciting process to introduce them to React for the very first time.",
         linkTitle: "Learn More",
         link: "https://nucamp.co"
     }
